@@ -320,5 +320,10 @@
       ],
       "type": "boxShadow"
     }
+  },
+  "colorNeutralStrokeOnBrand": {
+    "value": "#e0e0e0",
+    "description": "#e0e0e0",
+    "type": "color"
   }
 }
