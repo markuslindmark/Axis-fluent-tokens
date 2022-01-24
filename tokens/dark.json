@@ -136,19 +136,23 @@
   },
   "colorNeutralStroke1": {
     "value": "#666666",
-    "type": "color"
+    "type": "color",
+    "description": "#666666"
   },
   "colorNeutralStroke1Hover": {
     "value": "#757575",
-    "type": "color"
+    "type": "color",
+    "description": "#757575"
   },
   "colorNeutralStroke1Pressed": {
     "value": "#6b6b6b",
-    "type": "color"
+    "type": "color",
+    "description": "#6b6b6b"
   },
   "colorNeutralStroke1Selected": {
     "value": "#707070",
-    "type": "color"
+    "type": "color",
+    "description": "#707070"
   },
   "colorNeutralStroke2": {
     "value": "#525252",
