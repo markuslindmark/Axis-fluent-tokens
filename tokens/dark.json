@@ -80,7 +80,7 @@
           "description": "#141414"
         },
         "1Hover": {
-          "value": "#313131",
+          "value": "#353535",
           "type": "color",
           "description": "#313131"
         },
@@ -95,9 +95,9 @@
           "description": "#404040"
         },
         "2Hover": {
-          "value": "#313131",
+          "value": "#353535",
           "type": "color",
-          "description": "#313131"
+          "description": "#353535"
         },
         "2Pressed": {
           "value": "#272727",
