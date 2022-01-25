@@ -162,9 +162,9 @@
           "description": "#FFCC33"
         },
         "OnBrand": {
-          "value": "#272727",
+          "value": "#dadada",
           "type": "color",
-          "description": "#272727"
+          "description": "#dadada"
         },
         "Disabled": {
           "value": "#e0e0e0",
