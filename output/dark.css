@@ -14,10 +14,10 @@
   --color-neutral-background-4: #232323;
   --color-neutral-background-5: #1c1c1c;
   --color-neutral-background-6: #141414;
-  --color-neutral-background-1-hover: #353535;
+  --color-neutral-background-1-hover: #313131;
   --color-neutral-background-1-pressed: #272727;
   --color-neutral-background-1-selected: #404040;
-  --color-neutral-background-2-hover: #353535;
+  --color-neutral-background-2-hover: #313131;
   --color-neutral-background-2-pressed: #272727;
   --color-neutral-background-2-selected: #383838;
   --color-neutral-background-disabled: #141414;
@@ -48,10 +48,10 @@
   --color-transparent-background: #00000000;
   --color-stroke-focus2: #ffffff;
   --color-stroke-focus1: #000000;
-  --color-shadow-2: [object Object],[object Object];
-  --color-shadow-4: [object Object],[object Object];
-  --color-shadow-8: [object Object],[object Object];
-  --color-shadow-16: [object Object],[object Object];
-  --color-shadow-28: [object Object],[object Object];
-  --color-shadow-64: [object Object],[object Object];
+  --shadow-2: [object Object],[object Object];
+  --shadow-4: [object Object],[object Object];
+  --shadow-8: [object Object],[object Object];
+  --shadow-16: [object Object],[object Object];
+  --shadow-28: [object Object],[object Object];
+  --shadow-64: [object Object],[object Object];
       }
