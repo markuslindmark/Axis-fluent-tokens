@@ -5,12 +5,12 @@
         "4": {
           "value": "#f3f3f3",
           "type": "color",
-          "description": "#F3F3F3"
+          "description": "#F3F3F3 colorNeutralBackground4"
         },
         "5": {
           "value": "#e2e2e2",
           "type": "color",
-          "description": "#E2E2E2"
+          "description": "#E2E2E2 colorNeutralBackground5"
         }
       }
     },
