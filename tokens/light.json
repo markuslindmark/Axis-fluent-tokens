@@ -126,10 +126,20 @@
           "type": "color",
           "description": "#F0F0F0"
         },
-        "Disabled": {
-          "value": "#e0e0e0",
+        "1Hover": {
+          "value": "#c7c7c7",
           "type": "color",
-          "description": "#E0E0E0"
+          "description": "#C7C7C7"
+        },
+        "1Pressed": {
+          "value": "#b3b3b3",
+          "type": "color",
+          "description": "#B3B3B3"
+        },
+        "1Selected": {
+          "value": "#bdbdbd",
+          "type": "color",
+          "description": "#BDBDBD"
         },
         "Accessible": {
           "value": "#616161",
@@ -151,20 +161,15 @@
           "type": "color",
           "description": "#FFCC33"
         },
-        "1Hover": {
-          "value": "#c7c7c7",
+        "OnBrand": {
+          "value": "#272727",
           "type": "color",
-          "description": "#C7C7C7"
+          "description": "#272727"
         },
-        "1Pressed": {
-          "value": "#b3b3b3",
+        "Disabled": {
+          "value": "#e0e0e0",
           "type": "color",
-          "description": "#B3B3B3"
-        },
-        "1Selected": {
-          "value": "#bdbdbd",
-          "type": "color",
-          "description": "#BDBDBD"
+          "description": "#E0E0E0"
         }
       }
     },
