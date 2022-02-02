@@ -7,47 +7,51 @@
   },
   "lineHeights": {
     "0": {
-      "value": "AUTO",
-      "type": "lineHeights"
-    },
-    "1": {
-      "value": 20,
-      "type": "lineHeights"
-    },
-    "2": {
       "value": 16,
       "type": "lineHeights"
     },
-    "3": {
+    "1": {
       "value": 14,
       "type": "lineHeights"
     },
+    "2": {
+      "value": 20,
+      "type": "lineHeights"
+    },
+    "3": {
+      "value": 24,
+      "type": "lineHeights"
+    },
     "4": {
-      "value": 92,
-      "type": "lineHeights"
-    },
-    "5": {
-      "value": 52,
-      "type": "lineHeights"
-    },
-    "6": {
       "value": 26,
       "type": "lineHeights"
     },
-    "7": {
+    "5": {
       "value": 22,
       "type": "lineHeights"
     },
-    "8": {
+    "6": {
       "value": 40,
       "type": "lineHeights"
     },
-    "9": {
+    "7": {
       "value": 36,
       "type": "lineHeights"
     },
-    "10": {
+    "8": {
       "value": 32,
+      "type": "lineHeights"
+    },
+    "9": {
+      "value": 52,
+      "type": "lineHeights"
+    },
+    "10": {
+      "value": 92,
+      "type": "lineHeights"
+    },
+    "11": {
+      "value": "AUTO",
       "type": "lineHeights"
     }
   },
@@ -57,6 +61,14 @@
       "type": "fontWeights"
     },
     "segoe-ui-semibold": {
+      "value": "Semibold",
+      "type": "fontWeights"
+    },
+    "segoe-ui-0": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "segoe-ui-1": {
       "value": "Semibold",
       "type": "fontWeights"
     }
@@ -79,26 +91,30 @@
       "type": "fontSizes"
     },
     "4": {
-      "value": 20,
+      "value": 18,
       "type": "fontSizes"
     },
     "5": {
-      "value": 24,
+      "value": 20,
       "type": "fontSizes"
     },
     "6": {
-      "value": 28,
+      "value": 24,
       "type": "fontSizes"
     },
     "7": {
-      "value": 32,
+      "value": 28,
       "type": "fontSizes"
     },
     "8": {
-      "value": 40,
+      "value": 32,
       "type": "fontSizes"
     },
     "9": {
+      "value": 40,
+      "type": "fontSizes"
+    },
+    "10": {
       "value": 68,
       "type": "fontSizes"
     }
@@ -428,6 +444,19 @@
       },
       "type": "typography",
       "description": "Email Header"
+    },
+    "Body Large": {
+      "value": {
+        "fontFamily": "Segoe UI",
+        "fontWeight": "Regular",
+        "lineHeight": 24,
+        "fontSize": 18,
+        "letterSpacing": "0%",
+        "paragraphSpacing": 0,
+        "textCase": "none",
+        "textDecoration": "none"
+      },
+      "type": "typography"
     }
   },
   "textCase": {

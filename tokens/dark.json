@@ -22,6 +22,42 @@
           "type": "color",
           "description": "#999999\nDark: Icons w/ Labels"
         },
+        "1Hover": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "1Pressed": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "1Selected": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "2Hover": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "2Pressed": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "2Selected": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "3Hover": {
+          "value": "#d6d6d6",
+          "type": "color"
+        },
+        "3Pressed": {
+          "value": "#d6d6d6",
+          "type": "color"
+        },
+        "3Selected": {
+          "value": "#d6d6d6",
+          "type": "color"
+        },
         "Disabled": {
           "value": "#5c5c5c",
           "type": "color",
@@ -50,19 +86,19 @@
       },
       "Background": {
         "1": {
-          "value": "#353535",
+          "value": "#303030",
           "type": "color",
-          "description": "#353535"
+          "description": "#303030"
         },
         "2": {
-          "value": "#313131",
+          "value": "#292929",
           "type": "color",
-          "description": "#313131"
+          "description": "#292929"
         },
         "3": {
-          "value": "#272727",
+          "value": "#282828",
           "type": "color",
-          "description": "#272727"
+          "description": "#282828"
         },
         "4": {
           "value": "#232323",
@@ -70,9 +106,9 @@
           "description": "#232323"
         },
         "5": {
-          "value": "#1c1c1c",
+          "value": "#191919",
           "type": "color",
-          "description": "#1C1C1C"
+          "description": "#191919"
         },
         "6": {
           "value": "#141414",
@@ -80,9 +116,9 @@
           "description": "#141414"
         },
         "1Hover": {
-          "value": "#313131",
+          "value": "#353535",
           "type": "color",
-          "description": "#313131"
+          "description": "#353535"
         },
         "1Pressed": {
           "value": "#272727",
@@ -122,12 +158,12 @@
           "description": "#666666"
         },
         "2": {
-          "value": "#525252",
+          "value": "#444444",
           "type": "color",
           "description": "#525252"
         },
         "3": {
-          "value": "#3d3d3d",
+          "value": "#343434",
           "type": "color",
           "description": "#3D3D3D"
         },
