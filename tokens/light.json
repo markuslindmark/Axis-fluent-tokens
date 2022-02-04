@@ -510,10 +510,40 @@
         "type": "color",
         "description": "#EBEBEB"
       },
-      "BackgroundTransparent": {
-        "value": "#00000000",
+      "BackgroundLightAlphaHover": {
+        "value": "#FFFFFFCC",
         "type": "color",
-        "description": "#00000000"
+        "description": "#FFFFFFCC"
+      },
+      "BackgroundLightAlphaPressed": {
+        "value": "#FFFFFF80",
+        "type": "color",
+        "description": "#FFFFFF80"
+      },
+      "BackgroundLightAlphaSelected": {
+        "value": "#FFFFFF00",
+        "type": "color",
+        "description": "#FFFFFF00"
+      },
+      "BackgroundInverted": {
+        "value": "#FFFFFF00",
+        "type": "color",
+        "description": "#FFFFFF00"
+      },
+      "BackgroundInvertedHover": {
+        "value": "#0000001A",
+        "type": "color",
+        "description": "#0000001A"
+      },
+      "BackgroundInvertedPressed": {
+        "value": "#0000004D",
+        "type": "color",
+        "description": "#0000004D"
+      },
+      "BackgroundInvertedSelected": {
+        "value": "#00000033",
+        "type": "color",
+        "description": "#00000033"
       }
     },
     "Transparent": {

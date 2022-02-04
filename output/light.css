@@ -100,7 +100,13 @@
   --color-subtle-background-hover: #f5f5f5;
   --color-subtle-background-pressed: #e0e0e0;
   --color-subtle-background-selected: #ebebeb;
-  --color-subtle-background-transparent: #00000000;
+  --color-subtle-background-light-alpha-hover: #FFFFFFCC;
+  --color-subtle-background-light-alpha-pressed: #FFFFFF80;
+  --color-subtle-background-light-alpha-selected: #FFFFFF00;
+  --color-subtle-background-inverted: #FFFFFF00;
+  --color-subtle-background-inverted-hover: #0000001A;
+  --color-subtle-background-inverted-pressed: #0000004D;
+  --color-subtle-background-inverted-selected: #00000033;
   --color-transparent-background: #ffffff00;
   --color-transparent-stroke: #00000000;
   --color-transparent-stroke-interactive: #00000000;
