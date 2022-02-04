@@ -64,6 +64,10 @@
   --color-neutral-stroke-accessible-pressed: #b3b3b3;
   --color-neutral-stroke-accessible-selected: #ffcc33;
   --color-neutral-stroke-on-brand: #181818;
+  --color-neutral-stroke-on-brand2: #ffffff;
+  --color-neutral-stroke-on-brand2-hover: #ffffff;
+  --color-neutral-stroke-on-brand2-pressed: #ffffff;
+  --color-neutral-stroke-on-brand2-selected: #ffffff;
   --color-neutral-stroke-disabled: #424242;
   --color-neutral-stroke-inverted-disabled: #ffffff66;
   --color-neutral-shadow-ambient: #0000003d;

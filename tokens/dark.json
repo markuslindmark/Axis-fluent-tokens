@@ -319,6 +319,26 @@
           "type": "color",
           "description": "#181818"
         },
+        "OnBrand2": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "#ffffff"
+        },
+        "OnBrand2Hover": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "#ffffff"
+        },
+        "OnBrand2Pressed": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "#ffffff"
+        },
+        "OnBrand2Selected": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "#ffffff"
+        },
         "Disabled": {
           "value": "#424242",
           "type": "color",
