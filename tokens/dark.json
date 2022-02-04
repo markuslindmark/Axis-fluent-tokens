@@ -252,6 +252,11 @@
           "type": "color",
           "description": "#353535"
         },
+        "InvertedDisabled": {
+          "value": "#FFFFFF1A",
+          "type": "color",
+          "description": "#FFFFFF1A"
+        },
         "Disabled": {
           "value": "#141414",
           "type": "color",
