@@ -96,9 +96,8 @@
   --color-brand-background-inverted-pressed: #ffcc33;
   --color-brand-background-inverted-selected: #ffdf84;
   --color-brand-background2: #5a4400;
-  --color-brand-link: #f0b400;
-  --color-brand-link-hover: #d6a100;
-  --color-brand-link-pressed: #957000;
+  --color-brand-stroke1: #f0b400;
+  --color-brand-stroke2: #957000;
   --color-brand-shadow-ambient: #0000001f;
   --color-brand-shadow-key: #00000024;
   --color-subtle-background: #ffffff00;

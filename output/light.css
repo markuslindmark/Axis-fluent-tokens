@@ -100,9 +100,8 @@
   --color-brand-background2: #fff0c2;
   --color-brand-shadow-ambient: #0000001f;
   --color-brand-shadow-key: #00000024;
-  --color-brand-link: #f0b400;
-  --color-brand-link-hover: #d6a100;
-  --color-brand-link-pressed: #957000;
+  --color-brand-stroke1: #f0b400;
+  --color-brand-stroke2: #ffdf84;
   --color-subtle-background: #00000000;
   --color-subtle-background-hover: #f5f5f5;
   --color-subtle-background-pressed: #e0e0e0;

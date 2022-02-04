@@ -510,20 +510,15 @@
           "description": "#00000024"
         }
       },
-      "Link": {
+      "Stroke1": {
         "value": "#f0b400",
         "type": "color",
         "description": "#f0b400"
       },
-      "LinkHover": {
-        "value": "#d6a100",
+      "Stroke2": {
+        "value": "#ffdf84",
         "type": "color",
-        "description": "#d6a100"
-      },
-      "LinkPressed": {
-        "value": "#957000",
-        "type": "color",
-        "description": "#957000"
+        "description": "#ffdf84"
       }
     },
     "Subtle": {
