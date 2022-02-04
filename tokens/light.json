@@ -326,6 +326,26 @@
         "type": "color",
         "description": "#957000"
       },
+      "ForegroundLink": {
+        "value": "#f0b400",
+        "type": "color",
+        "description": "#f0b400"
+      },
+      "ForegroundLinkHover": {
+        "value": "#d6a100",
+        "type": "color",
+        "description": "#d6a100"
+      },
+      "ForegroundLinkPressed": {
+        "value": "#957000",
+        "type": "color",
+        "description": "#957000"
+      },
+      "ForegroundLinkSelected": {
+        "value": "#957000",
+        "type": "color",
+        "description": "#957000"
+      },
       "Background": {
         "value": "#ffcc33",
         "type": "color",
@@ -350,21 +370,6 @@
         "value": "#fff0c2",
         "type": "color",
         "description": "#FFF0C2"
-      },
-      "ForegroundLink": {
-        "value": "#f0b400",
-        "type": "color",
-        "description": "#f0b400"
-      },
-      "ForegroundLinkHover": {
-        "value": "#d6a100",
-        "type": "color",
-        "description": "#d6a100"
-      },
-      "ForegroundLinkPressed": {
-        "value": "#957000",
-        "type": "color",
-        "description": "#957000"
       },
       "Shadow": {
         "Ambient": {
