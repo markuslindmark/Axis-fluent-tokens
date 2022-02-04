@@ -71,6 +71,8 @@
   --color-neutral-shadow-key-lighter: #00000012;
   --color-neutral-shadow-ambient-darker: #00000033;
   --color-neutral-shadow-key-darker: #0000003d;
+  --color-neutral-stencil-1: #e6e6e6;
+  --color-neutral-stencil-2: #fafafa;
   --color-stroke-focus1: #ffffff;
   --color-stroke-focus2: #000000;
   --color-brand-foreground1: #957000;
@@ -108,6 +110,9 @@
   --color-subtle-background-inverted-pressed: #0000004D;
   --color-subtle-background-inverted-selected: #00000033;
   --color-transparent-background: #ffffff00;
+  --color-transparent-background-hover: #ffffff00;
+  --color-transparent-background-pressed: #ffffff00;
+  --color-transparent-background-selected: #ffffff00;
   --color-transparent-stroke: #00000000;
   --color-transparent-stroke-interactive: #00000000;
   --color-transparent-stroke-disabled: #00000000;

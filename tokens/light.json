@@ -356,6 +356,18 @@
           "type": "color",
           "description": "#0000003D"
         }
+      },
+      "Stencil": {
+        "1": {
+          "value": "#e6e6e6",
+          "type": "color",
+          "description": "#e6e6e6"
+        },
+        "2": {
+          "value": "#fafafa",
+          "type": "color",
+          "description": "#fafafa"
+        }
       }
     },
     "Stroke": {
@@ -548,6 +560,21 @@
     },
     "Transparent": {
       "Background": {
+        "value": "#ffffff00",
+        "type": "color",
+        "description": "#FFFFFF00"
+      },
+      "BackgroundHover": {
+        "value": "#ffffff00",
+        "type": "color",
+        "description": "#FFFFFF00"
+      },
+      "BackgroundPressed": {
+        "value": "#ffffff00",
+        "type": "color",
+        "description": "#FFFFFF00"
+      },
+      "BackgroundSelected": {
         "value": "#ffffff00",
         "type": "color",
         "description": "#FFFFFF00"

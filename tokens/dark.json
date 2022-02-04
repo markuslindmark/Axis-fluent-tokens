@@ -356,6 +356,18 @@
           "type": "color",
           "description": "#0000007A"
         }
+      },
+      "Stencil": {
+        "1": {
+          "value": "#333333",
+          "type": "color",
+          "description": "#333333"
+        },
+        "2": {
+          "value": "#575757",
+          "type": "color",
+          "description": "#575757"
+        }
       }
     },
     "Brand": {
@@ -539,6 +551,21 @@
         "value": "#00000000",
         "type": "color",
         "description": "#00000000"
+      },
+      "BackgroundHover": {
+        "value": "#ffffff00",
+        "type": "color",
+        "description": "#FFFFFF00"
+      },
+      "BackgroundPressed": {
+        "value": "#ffffff00",
+        "type": "color",
+        "description": "#FFFFFF00"
+      },
+      "BackgroundSelected": {
+        "value": "#ffffff00",
+        "type": "color",
+        "description": "#FFFFFF00"
       },
       "Stroke": {
         "value": "#00000000",
