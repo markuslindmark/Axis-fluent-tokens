@@ -319,6 +319,11 @@
         "type": "color",
         "description": "#FFCC33"
       },
+      "ForegroundLink": {
+        "value": "#f0b400",
+        "type": "color",
+        "description": "#f0b400"
+      },
       "ForegroundLinkHover": {
         "value": "#d6a100",
         "type": "color",
@@ -330,6 +335,41 @@
         "description": "#957000"
       },
       "ForegroundLinkSelected": {
+        "value": "#957000",
+        "type": "color",
+        "description": "#957000"
+      },
+      "ForegroundInverted": {
+        "value": "#957000",
+        "type": "color",
+        "description": "#957000"
+      },
+      "ForegroundInvertedHover": {
+        "value": "#d6a100",
+        "type": "color",
+        "description": "#d6a100"
+      },
+      "ForegroundInvertedPressed": {
+        "value": "#ffcc33",
+        "type": "color",
+        "description": "#ffcc33"
+      },
+      "ForegroundOnLight": {
+        "value": "#f0b400",
+        "type": "color",
+        "description": "#f0b400"
+      },
+      "ForegroundOnLightHover": {
+        "value": "#d6a100",
+        "type": "color",
+        "description": "#d6a100"
+      },
+      "ForegroundOnLightPressed": {
+        "value": "#957000",
+        "type": "color",
+        "description": "#957000"
+      },
+      "ForegroundOnLightSelected": {
         "value": "#957000",
         "type": "color",
         "description": "#957000"
@@ -358,11 +398,6 @@
         "value": "#5a4400",
         "type": "color",
         "description": "#5A4400"
-      },
-      "ForegroundLink": {
-        "value": "#f0b400",
-        "type": "color",
-        "description": "#f0b400"
       },
       "Link": {
         "value": "#f0b400",
