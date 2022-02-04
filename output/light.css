@@ -29,12 +29,6 @@
   --color-neutral-foreground-inverted-link-hover: #ffffff;
   --color-neutral-foreground-inverted-link-pressed: #ffffff;
   --color-neutral-foreground-inverted-link-selected: #ffffff;
-  --color-neutral-foreground-shadow-ambient: #0000001f;
-  --color-neutral-foreground-shadow-key: #00000024;
-  --color-neutral-foreground-shadow-ambient-lighter: #0000000f;
-  --color-neutral-foreground-shadow-key-lighter: #00000012;
-  --color-neutral-foreground-shadow-ambient-darker: #00000033;
-  --color-neutral-foreground-shadow-key-darker: #0000003d;
   --color-neutral-background-1: #ffffff;
   --color-neutral-background-2: #fdfdfd;
   --color-neutral-background-3: #fbfbfb;
@@ -60,6 +54,12 @@
   --color-neutral-stroke-on-brand: #dadada;
   --color-neutral-stroke-disabled: #e0e0e0;
   --color-neutral-stroke-inverted-disabled: #ffffff66;
+  --color-neutral-shadow-ambient: #0000001f;
+  --color-neutral-shadow-key: #00000024;
+  --color-neutral-shadow-ambient-lighter: #0000000f;
+  --color-neutral-shadow-key-lighter: #00000012;
+  --color-neutral-shadow-ambient-darker: #00000033;
+  --color-neutral-shadow-key-darker: #0000003d;
   --color-stroke-focus1: #ffffff;
   --color-stroke-focus2: #000000;
   --color-brand-foreground1: #957000;

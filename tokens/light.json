@@ -139,38 +139,6 @@
           "value": "#ffffff",
           "type": "color",
           "description": "#ffffff"
-        },
-        "Shadow": {
-          "Ambient": {
-            "value": "#0000001f",
-            "type": "color",
-            "description": "#0000001F"
-          },
-          "Key": {
-            "value": "#00000024",
-            "type": "color",
-            "description": "#00000024"
-          },
-          "AmbientLighter": {
-            "value": "#0000000f",
-            "type": "color",
-            "description": "#0000000F"
-          },
-          "KeyLighter": {
-            "value": "#00000012",
-            "type": "color",
-            "description": "#00000012"
-          },
-          "AmbientDarker": {
-            "value": "#00000033",
-            "type": "color",
-            "description": "#00000033"
-          },
-          "KeyDarker": {
-            "value": "#0000003d",
-            "type": "color",
-            "description": "#0000003D"
-          }
         }
       },
       "Background": {
@@ -300,6 +268,38 @@
           "value": "#ffffff66",
           "type": "color",
           "description": "#ffffff66"
+        }
+      },
+      "Shadow": {
+        "Ambient": {
+          "value": "#0000001f",
+          "type": "color",
+          "description": "#0000001F"
+        },
+        "Key": {
+          "value": "#00000024",
+          "type": "color",
+          "description": "#00000024"
+        },
+        "AmbientLighter": {
+          "value": "#0000000f",
+          "type": "color",
+          "description": "#0000000F"
+        },
+        "KeyLighter": {
+          "value": "#00000012",
+          "type": "color",
+          "description": "#00000012"
+        },
+        "AmbientDarker": {
+          "value": "#00000033",
+          "type": "color",
+          "description": "#00000033"
+        },
+        "KeyDarker": {
+          "value": "#0000003d",
+          "type": "color",
+          "description": "#0000003D"
         }
       }
     },

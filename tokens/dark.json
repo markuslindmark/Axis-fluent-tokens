@@ -82,6 +82,63 @@
           "value": "#ffcc33",
           "type": "color",
           "description": "#FFCC33"
+        },
+        "3BrandHover": {
+          "value": "#ffcc33",
+          "type": "color"
+        },
+        "3BrandPressed": {
+          "value": "#f0b400",
+          "type": "color"
+        },
+        "3BrandSelected": {
+          "value": "#ffcc33",
+          "type": "color"
+        },
+        "InvertedDisabled": {
+          "value": "#ffffff66",
+          "type": "color",
+          "description": "#BDBDBD"
+        },
+        "Inverted": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "#ffffff"
+        },
+        "InvertedHover": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "#ffffff"
+        },
+        "InvertedPressed": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "#ffffff"
+        },
+        "InvertedSelected": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "#ffffff"
+        },
+        "InvertedLink": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "#ffffff"
+        },
+        "InvertedLinkHover": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "#ffffff"
+        },
+        "InvertedLinkPressed": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "#ffffff"
+        },
+        "InvertedLinkSelected": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "#ffffff"
         }
       },
       "Background": {
@@ -211,6 +268,43 @@
           "value": "#424242",
           "type": "color",
           "description": "#424242"
+        },
+        "InvertedDisabled": {
+          "value": "#ffffff66",
+          "type": "color",
+          "description": "#ffffff66"
+        }
+      },
+      "Shadow": {
+        "Ambient": {
+          "value": "#0000003d",
+          "type": "color",
+          "description": "#0000003D"
+        },
+        "Key": {
+          "value": "#00000047",
+          "type": "color",
+          "description": "#00000047"
+        },
+        "AmbientLighter": {
+          "value": "#0000001f",
+          "type": "color",
+          "description": "#0000001F"
+        },
+        "KeyLighter": {
+          "value": "#00000024",
+          "type": "color",
+          "description": "#00000024"
+        },
+        "AmbientDarker": {
+          "value": "#00000066",
+          "type": "color",
+          "description": "#00000066"
+        },
+        "KeyDarker": {
+          "value": "#0000007a",
+          "type": "color",
+          "description": "#0000007A"
         }
       }
     },
@@ -249,6 +343,48 @@
         "value": "#5a4400",
         "type": "color",
         "description": "#5A4400"
+      },
+      "ForegroundLink": {
+        "value": "#f0b400",
+        "type": "color",
+        "description": "#f0b400"
+      },
+      "ForegroundLinkHover": {
+        "value": "#d6a100",
+        "type": "color",
+        "description": "#d6a100"
+      },
+      "ForegroundLinkPressed": {
+        "value": "#957000",
+        "type": "color",
+        "description": "#957000"
+      },
+      "Link": {
+        "value": "#f0b400",
+        "type": "color",
+        "description": "#f0b400"
+      },
+      "LinkHover": {
+        "value": "#d6a100",
+        "type": "color",
+        "description": "#d6a100"
+      },
+      "LinkPressed": {
+        "value": "#957000",
+        "type": "color",
+        "description": "#957000"
+      },
+      "Shadow": {
+        "Ambient": {
+          "value": "#0000001f",
+          "type": "color",
+          "description": "#0000001F"
+        },
+        "Key": {
+          "value": "#00000024",
+          "type": "color",
+          "description": "#00000024"
+        }
       }
     },
     "Subtle": {
@@ -283,6 +419,21 @@
         "value": "#00000000",
         "type": "color",
         "description": "#00000000"
+      },
+      "Stroke": {
+        "value": "#00000000",
+        "type": "color",
+        "description": "#00000000"
+      },
+      "StrokeInteractive": {
+        "value": "#00000000",
+        "type": "color",
+        "description": "#00000000"
+      },
+      "StrokeDisabled": {
+        "value": "#00000000",
+        "type": "color",
+        "description": "#00000000"
       }
     },
     "Stroke": {
@@ -295,6 +446,53 @@
         "value": "#000000",
         "type": "color",
         "description": "#000000"
+      }
+    },
+    "Compound": {
+      "BrandForeground1": {
+        "value": "#ffcc33",
+        "type": "color",
+        "description": "#ffcc33"
+      },
+      "BrandForeground1Hover": {
+        "value": "#d6a100",
+        "type": "color",
+        "description": "#d6a100"
+      },
+      "BrandForeground1Pressed": {
+        "value": "#957000",
+        "type": "color",
+        "description": "#957000"
+      },
+      "BrandBackground": {
+        "value": "#f0b400",
+        "type": "color",
+        "description": "#f0b400"
+      },
+      "BrandBackgroundHover": {
+        "value": "#d6a100",
+        "type": "color",
+        "description": "#d6a100"
+      },
+      "BrandBackgroundPressed": {
+        "value": "#957000",
+        "type": "color",
+        "description": "#957000"
+      },
+      "BrandStroke": {
+        "value": "#ffcc33",
+        "type": "color",
+        "description": "#ffcc33"
+      },
+      "BrandStrokeHover": {
+        "value": "#d6a100",
+        "type": "color",
+        "description": "#d6a100"
+      },
+      "BrandStrokePressed": {
+        "value": "#957000",
+        "type": "color",
+        "description": "#957000"
       }
     }
   },
