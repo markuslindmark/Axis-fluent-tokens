@@ -250,7 +250,7 @@
         "Inverted": {
           "value": "#353535",
           "type": "color",
-          "description": "#F5F5F5"
+          "description": "#353535"
         },
         "Disabled": {
           "value": "#141414",
