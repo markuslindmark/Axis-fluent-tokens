@@ -456,6 +456,31 @@
         "type": "color",
         "description": "#D6A100"
       },
+      "BackgroundStatic": {
+        "value": "#ffcc33",
+        "type": "color",
+        "description": "#ffcc33"
+      },
+      "BackgroundInverted": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "#ffffff"
+      },
+      "BackgroundInvertedHover": {
+        "value": "#fff0c2",
+        "type": "color",
+        "description": "#fff0c2"
+      },
+      "BackgroundInvertedPressed": {
+        "value": "#ffcc33",
+        "type": "color",
+        "description": "#ffcc33"
+      },
+      "BackgroundInvertedSelected": {
+        "value": "#ffdf84",
+        "type": "color",
+        "description": "#ffdf84"
+      },
       "Background2": {
         "value": "#5a4400",
         "type": "color",
