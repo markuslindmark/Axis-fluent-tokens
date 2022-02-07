@@ -5,7 +5,7 @@
       "type": "fontFamilies"
     },
     "Monospace": {
-      "value": "Consolas, 'Courier New', Courier, monospaceFont",
+      "value": "Consolas, 'Courier New', Courier, monospace",
       "type": "fontFamilies"
     },
     "Numeric": {
@@ -13,7 +13,7 @@
       "type": "fontFamilies"
     }
   },
-  "lineHeights": {
+  "lineHeight": {
     "Base100": {
       "value": 14,
       "type": "lineHeights"
@@ -55,7 +55,7 @@
       "type": "lineHeights"
     }
   },
-  "fontWeights": {
+  "fontWeight": {
     "Regular": {
       "value": 400,
       "type": "fontWeights"
