@@ -8,10 +8,10 @@
   --line-height-base400: 22;
   --line-height-base500: 28;
   --line-height-base600: 32;
-  --line-height-base700: 36;
-  --line-height-base800: 40;
-  --line-height-base900: 52;
-  --line-height-base1000: 92;
+  --line-height-hero700: 36;
+  --line-height-hero800: 40;
+  --line-height-hero900: 52;
+  --line-height-hero1000: 92;
   --font-weight-regular: 400;
   --font-weight-medium: 500;
   --font-weight-semibold: 600;
