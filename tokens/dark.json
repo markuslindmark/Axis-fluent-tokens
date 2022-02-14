@@ -30,6 +30,10 @@
           "value": "#ffffff",
           "type": "color"
         },
+        "1Static": {
+          "value": "#242424",
+          "type": "color"
+        },
         "1Selected": {
           "value": "#ffffff",
           "type": "color"

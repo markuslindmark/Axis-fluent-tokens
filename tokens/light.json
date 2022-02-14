@@ -34,6 +34,10 @@
           "value": "#242424",
           "type": "color"
         },
+        "1Static": {
+          "value": "#242424",
+          "type": "color"
+        },
         "2Hover": {
           "value": "#242424",
           "type": "color"
