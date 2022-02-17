@@ -262,9 +262,9 @@
           "description": "#FFFFFF1A"
         },
         "Disabled": {
-          "value": "#141414",
+          "value": "#353535",
           "type": "color",
-          "description": "#141414"
+          "description": "#353535"
         }
       },
       "Stroke": {
