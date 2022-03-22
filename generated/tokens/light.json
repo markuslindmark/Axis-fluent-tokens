@@ -31,8 +31,9 @@
           "type": "color"
         },
         "1Pressed": {
-          "value": "#242424",
-          "type": "color"
+          "value": "#2e2e2e",
+          "type": "color",
+          "description": "#2E2E2E"
         },
         "1Static": {
           "value": "#242424",
@@ -73,19 +74,19 @@
           "description": "#000000"
         },
         "2BrandHover": {
-          "value": "#957000",
+          "value": "#242424",
           "type": "color",
-          "description": "#957000"
+          "description": "#242424"
         },
         "2BrandPressed": {
-          "value": "#957000",
+          "value": "#242424",
           "type": "color",
-          "description": "#957000"
+          "description": "#242424\n"
         },
         "2BrandSelected": {
-          "value": "#5a4400",
+          "value": "#242424",
           "type": "color",
-          "description": "#5A4400"
+          "description": "#242424"
         },
         "3BrandHover": {
           "value": "#957000",
@@ -152,19 +153,19 @@
           "description": "#FFFFFF"
         },
         "2": {
-          "value": "#fdfdfd",
+          "value": "#f9f9f9",
           "type": "color",
-          "description": "#FDFDFD"
+          "description": "#F9F9F9"
         },
         "3": {
-          "value": "#fbfbfb",
+          "value": "#f4f4f4",
           "type": "color",
-          "description": "#FBFBFB"
+          "description": "#F4F4F4"
         },
         "4": {
-          "value": "#f5f5f5",
+          "value": "#ededed",
           "type": "color",
-          "description": "#F5F5F5"
+          "description": "#EDEDED"
         },
         "5": {
           "value": "#e2e2e2",
@@ -257,7 +258,7 @@
           "description": "#F5F5F5"
         },
         "InvertedDisabled": {
-          "value": "#FFFFFF1A",
+          "value": "#ffffff1a",
           "type": "color",
           "description": "#FFFFFF1A"
         },
@@ -488,14 +489,14 @@
         "description": "#F0B400"
       },
       "BackgroundPressed": {
-        "value": "#957000",
-        "type": "color",
-        "description": "#957000"
-      },
-      "BackgroundSelected": {
         "value": "#d6a100",
         "type": "color",
         "description": "#D6A100"
+      },
+      "BackgroundSelected": {
+        "value": "#f0b400",
+        "type": "color",
+        "description": "#F0B400"
       },
       "BackgroundStatic": {
         "value": "#ffcc33",
@@ -557,47 +558,47 @@
         "description": "#00000000"
       },
       "BackgroundHover": {
-        "value": "#f5f5f5",
+        "value": "#0000000a",
         "type": "color",
-        "description": "#F5F5F5"
+        "description": "#0000000a"
       },
       "BackgroundPressed": {
-        "value": "#e0e0e0",
+        "value": "#0000001f",
         "type": "color",
         "description": "#E0E0E0"
       },
       "BackgroundSelected": {
-        "value": "#ebebeb",
+        "value": "#0000000a",
         "type": "color",
-        "description": "#EBEBEB"
+        "description": "#0000000a"
       },
       "BackgroundLightAlphaHover": {
-        "value": "#FFFFFFCC",
+        "value": "#ffffffcc",
         "type": "color",
         "description": "#FFFFFFCC"
       },
       "BackgroundLightAlphaPressed": {
-        "value": "#FFFFFF80",
+        "value": "#ffffff80",
         "type": "color",
         "description": "#FFFFFF80"
       },
       "BackgroundLightAlphaSelected": {
-        "value": "#FFFFFF00",
+        "value": "#ffffff00",
         "type": "color",
         "description": "#FFFFFF00"
       },
       "BackgroundInverted": {
-        "value": "#FFFFFF00",
+        "value": "#ffffff00",
         "type": "color",
         "description": "#FFFFFF00"
       },
       "BackgroundInvertedHover": {
-        "value": "#0000001A",
+        "value": "#0000001a",
         "type": "color",
         "description": "#0000001A"
       },
       "BackgroundInvertedPressed": {
-        "value": "#0000004D",
+        "value": "#0000004d",
         "type": "color",
         "description": "#0000004D"
       },
@@ -694,52 +695,130 @@
   },
   "shadow": {
     "2": {
-      "value": "0 0 2px #0000001f, 0 1px 2px #00000024",
-      "type": "other"
+      "value": [
+        {
+          "color": "#00000024",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 1,
+          "blur": 2,
+          "spread": 0
+        },
+        {
+          "color": "#0000001f",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 2,
+          "spread": 0
+        }
+      ],
+      "type": "boxShadow"
     },
     "4": {
-      "value": "0 0 2px #0000001f, 0 2px 4px #00000024",
-      "type": "other"
+      "value": [
+        {
+          "color": "#00000014",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 2,
+          "blur": 4,
+          "spread": 0
+        },
+        {
+          "color": "#0000001f",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 2,
+          "spread": 0
+        }
+      ],
+      "type": "boxShadow"
     },
     "8": {
-      "value": "0 0 2px #0000001f, 0 4px 8px #00000024",
-      "type": "other"
+      "value": [
+        {
+          "color": "#00000014",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 4,
+          "blur": 8,
+          "spread": 0
+        },
+        {
+          "color": "#0000001f",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 2,
+          "spread": 0
+        }
+      ],
+      "type": "boxShadow"
     },
     "16": {
-      "value": "0 0 2px #0000001f, 0 8px 16px #00000024",
-      "type": "other"
+      "value": [
+        {
+          "color": "#00000014",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 8,
+          "blur": 16,
+          "spread": 0
+        },
+        {
+          "color": "#0000001f",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 2,
+          "spread": 0
+        }
+      ],
+      "type": "boxShadow"
     },
     "28": {
-      "value": "0 0 8px #0000001f, 0 14px 28px #00000024",
-      "type": "other"
+      "value": [
+        {
+          "color": "#00000014",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 14,
+          "blur": 28,
+          "spread": 0
+        },
+        {
+          "color": "#0000001f",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 8,
+          "spread": 0
+        }
+      ],
+      "type": "boxShadow"
     },
     "64": {
-      "value": "0 0 8px #0000001f, 0 32px 64px #00000024",
-      "type": "other"
-    },
-    "2Brand": {
-      "value": "0 0 2px #0000004d, 0 1px 2px #00000040",
-      "type": "other"
-    },
-    "4Brand": {
-      "value": "0 0 2px #0000004d, 0 2px 4px #00000040",
-      "type": "other"
-    },
-    "8Brand": {
-      "value": "0 0 2px #0000004d, 0 4px 8px #00000040",
-      "type": "other"
-    },
-    "16Brand": {
-      "value": "0 0 2px #0000004d, 0 8px 16px #00000040",
-      "type": "other"
-    },
-    "28Brand": {
-      "value": "0 0 8px #0000004d, 0 14px 28px #00000040",
-      "type": "other"
-    },
-    "64Brand": {
-      "value": "0 0 8px #0000004d, 0 32px 64px #00000040",
-      "type": "other"
+      "value": [
+        {
+          "color": "#00000014",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 32,
+          "blur": 64,
+          "spread": 0
+        },
+        {
+          "color": "#0000001f",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 8,
+          "spread": 0
+        }
+      ],
+      "type": "boxShadow"
     }
   }
 }
