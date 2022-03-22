@@ -28,13 +28,14 @@
         },
         "1Pressed": {
           "value": "#ffffff",
-          "type": "color"
+          "type": "color",
+          "description": "#FFFFFF"
         },
-        "1Static": {
+        "1Selected": {
           "value": "#ffffff",
           "type": "color"
         },
-        "1Selected": {
+        "1Static": {
           "value": "#ffffff",
           "type": "color"
         },
@@ -152,24 +153,24 @@
           "description": "#303030"
         },
         "2": {
-          "value": "#292929",
+          "value": "#262626",
           "type": "color",
-          "description": "#292929"
+          "description": "#262626"
         },
         "3": {
-          "value": "#282828",
+          "value": "#222222",
           "type": "color",
-          "description": "#282828"
+          "description": "#222222"
         },
         "4": {
-          "value": "#232323",
-          "type": "color",
-          "description": "#232323"
-        },
-        "5": {
           "value": "#191919",
           "type": "color",
           "description": "#191919"
+        },
+        "5": {
+          "value": "#080808",
+          "type": "color",
+          "description": "#080808"
         },
         "6": {
           "value": "#141414",
@@ -177,14 +178,14 @@
           "description": "#141414"
         },
         "1Hover": {
-          "value": "#353535",
+          "value": "#383838",
           "type": "color",
           "description": "#353535"
         },
         "1Pressed": {
-          "value": "#2E2E2E",
+          "value": "#272727",
           "type": "color",
-          "description": "#2E2E2E"
+          "description": "#272727"
         },
         "1Selected": {
           "value": "#404040",
@@ -197,9 +198,9 @@
           "description": "#313131"
         },
         "2Pressed": {
-          "value": "#272727",
+          "value": "#242424",
           "type": "color",
-          "description": "#272727"
+          "description": "#242424"
         },
         "2Selected": {
           "value": "#383838",
@@ -212,9 +213,9 @@
           "description": "#313131"
         },
         "3Pressed": {
-          "value": "#222222",
+          "value": "#202020",
           "type": "color",
-          "description": "#222222"
+          "description": "#202020"
         },
         "3Selected": {
           "value": "#383838",
@@ -227,9 +228,9 @@
           "description": "#373737"
         },
         "4Pressed": {
-          "value": "#1a1a1a",
+          "value": "#171717",
           "type": "color",
-          "description": "#1a1a1a"
+          "description": "#171717"
         },
         "4Selected": {
           "value": "#323232",
@@ -242,9 +243,9 @@
           "description": "#1f1f1f"
         },
         "5Pressed": {
-          "value": "#141414",
+          "value": "#070707",
           "type": "color",
-          "description": "#141414"
+          "description": "#070707"
         },
         "5Selected": {
           "value": "#282828",
@@ -257,7 +258,7 @@
           "description": "#353535"
         },
         "InvertedDisabled": {
-          "value": "#FFFFFF1A",
+          "value": "#ffffff1a",
           "type": "color",
           "description": "#FFFFFF1A"
         },
@@ -545,47 +546,47 @@
         "description": "#FFFFFF00"
       },
       "BackgroundHover": {
-        "value": "#383838",
+        "value": "#ffffff17",
         "type": "color",
-        "description": "#383838"
+        "description": "#ffffff17"
       },
       "BackgroundPressed": {
-        "value": "#2e2e2e",
+        "value": "#ffffff12",
         "type": "color",
-        "description": "#2E2E2E"
+        "description": "#ffffff12"
       },
       "BackgroundSelected": {
-        "value": "#404040",
+        "value": "#ffffff17",
         "type": "color",
-        "description": "#404040"
+        "description": "#ffffff17"
       },
       "BackgroundLightAlphaHover": {
-        "value": "#FFFFFF1A",
+        "value": "#ffffff1a",
         "type": "color",
         "description": "#FFFFFF1A"
       },
       "BackgroundLightAlphaPressed": {
-        "value": "#FFFFFF0D",
+        "value": "#ffffff0d",
         "type": "color",
         "description": "#FFFFFF0D"
       },
       "BackgroundLightAlphaSelected": {
-        "value": "#FFFFFF00",
+        "value": "#ffffff00",
         "type": "color",
         "description": "#FFFFFF00"
       },
       "BackgroundInverted": {
-        "value": "#FFFFFF00",
+        "value": "#ffffff00",
         "type": "color",
         "description": "#FFFFFF00"
       },
       "BackgroundInvertedHover": {
-        "value": "#0000001A",
+        "value": "#0000001a",
         "type": "color",
         "description": "#0000001A"
       },
       "BackgroundInvertedPressed": {
-        "value": "#0000004D",
+        "value": "#0000004d",
         "type": "color",
         "description": "#0000004D"
       },
@@ -694,52 +695,130 @@
   },
   "shadow": {
     "2": {
-      "value": "0 0 2px #0000003d, 0 1px 2px #00000047",
-      "type": "other"
+      "value": [
+        {
+          "color": "#00000047",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 1,
+          "blur": 2,
+          "spread": 0
+        },
+        {
+          "color": "#0000003d",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 2,
+          "spread": 0
+        }
+      ],
+      "type": "boxShadow"
     },
     "4": {
-      "value": "0 0 2px #0000003d, 0 2px 4px #00000047",
-      "type": "other"
+      "value": [
+        {
+          "color": "#00000047",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 2,
+          "blur": 4,
+          "spread": 0
+        },
+        {
+          "color": "#0000003d",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 2,
+          "spread": 0
+        }
+      ],
+      "type": "boxShadow"
     },
     "8": {
-      "value": "0 0 2px #0000003d, 0 4px 8px #00000047",
-      "type": "other"
+      "value": [
+        {
+          "color": "#00000047",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 4,
+          "blur": 8,
+          "spread": 0
+        },
+        {
+          "color": "#0000003d",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 2,
+          "spread": 0
+        }
+      ],
+      "type": "boxShadow"
     },
     "16": {
-      "value": "0 0 2px #0000003d, 0 8px 16px #00000047",
-      "type": "other"
+      "value": [
+        {
+          "color": "#00000047",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 8,
+          "blur": 16,
+          "spread": 0
+        },
+        {
+          "color": "#0000003d",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 2,
+          "spread": 0
+        }
+      ],
+      "type": "boxShadow"
     },
     "28": {
-      "value": "0 0 8px #0000003d, 0 14px 28px #00000047",
-      "type": "other"
+      "value": [
+        {
+          "color": "#00000047",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 14,
+          "blur": 28,
+          "spread": 0
+        },
+        {
+          "color": "#0000003d",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 8,
+          "spread": 0
+        }
+      ],
+      "type": "boxShadow"
     },
     "64": {
-      "value": "0 0 8px #0000003d, 0 32px 64px #00000047",
-      "type": "other"
-    },
-    "2Brand": {
-      "value": "0 0 2px #0000004d, 0 1px 2px #00000040",
-      "type": "other"
-    },
-    "4Brand": {
-      "value": "0 0 2px #0000004d, 0 2px 4px #00000040",
-      "type": "other"
-    },
-    "8Brand": {
-      "value": "0 0 2px #0000004d, 0 4px 8px #00000040",
-      "type": "other"
-    },
-    "16Brand": {
-      "value": "0 0 2px #0000004d, 0 8px 16px #00000040",
-      "type": "other"
-    },
-    "28Brand": {
-      "value": "0 0 8px #0000004d, 0 14px 28px #00000040",
-      "type": "other"
-    },
-    "64Brand": {
-      "value": "0 0 8px #0000004d, 0 32px 64px #00000040",
-      "type": "other"
+      "value": [
+        {
+          "color": "#00000047",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 32,
+          "blur": 64,
+          "spread": 0
+        },
+        {
+          "color": "#0000003d",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 8,
+          "spread": 0
+        }
+      ],
+      "type": "boxShadow"
     }
   }
 }
