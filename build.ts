@@ -18,9 +18,15 @@ const getTokens = (dictionary: Dictionary, category: string): string | undefined
       ? `${t.name}: ${t.value},`
       : `${t.name}: "${t.value}",`)
     .join('\n  ');
-  const typeName = category === 'shadow'
-    ? 'ShadowTokens & ShadowBrandTokens'
-    : getTypeName(category);
+  if (category === 'shadow') {
+    // Reusing same tokens for shadowBrand
+    const brandTokens = dictionary.allTokens
+      .filter(t => t.attributes?.category === category)
+      .map(t => `${t.name}Brand: "${t.value}",`)
+      .join('\n  ');
+    return `export const ${category}Tokens: ShadowTokens & ShadowBrandTokens = {\n  ${tokens}\n  ${brandTokens}\n};`;
+  }
+  const typeName = getTypeName(category);
   return tokens.length > 0
     ? `export const ${category}Tokens: ${typeName} = {\n  ${tokens}\n};`
     : undefined;
