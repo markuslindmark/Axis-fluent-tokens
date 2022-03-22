@@ -2,6 +2,13 @@ import StyleDictionaryPackage, { Dictionary } from 'style-dictionary';
 
 // HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
 
+const toPixelValue = (value: string) => {
+  const numericValue = parseFloat(value);
+  return Number.isNaN(numericValue) || numericValue === 0
+    ? value
+    : `${numericValue}px`;
+}
+
 const getTypeName = (category: string) => `${category[0].toUpperCase()}${category.substring(1)}Tokens`;
 
 const getTokens = (dictionary: Dictionary, category: string): string | undefined => {
@@ -45,20 +52,21 @@ StyleDictionaryPackage.registerFormat({
 StyleDictionaryPackage.registerTransform({
   name: 'sizes/px',
   type: 'value',
-  matcher: (token) => {
-    return [
+  matcher: (token) =>
+    [
       'fontSizes',
       'lineHeights',
       'borderRadius',
       'borderWidth'
-    ].includes(token.type);
-  },
-  transformer: (token) => {
-    const numericValue = parseFloat(token.original.value);
-    return Number.isNaN(numericValue)
-      ? token.original.value
-      : `${numericValue}px`;
-  }
+    ].includes(token.type),
+  transformer: (token) => toPixelValue(token.original.value)
+});
+
+StyleDictionaryPackage.registerTransform({
+  name: 'shadow/boxShadow',
+  type: 'value',
+  matcher: (token) => token.type === 'boxShadow',
+  transformer: (token) => token.value.map((v: any) => `${[v.x, v.y, v.blur, v.spread].map(pv => toPixelValue(pv)).join(' ')} ${v.color}`).join(', ')
 });
 
 const getStyleDictionaryConfig = (theme: string) => ({
@@ -71,6 +79,7 @@ const getStyleDictionaryConfig = (theme: string) => ({
         'attribute/cti',
         'name/cti/kebab',
         'sizes/px',
+        'shadow/boxShadow'
       ],
       buildPath: 'generated/css/',
       files: [{
@@ -85,7 +94,8 @@ const getStyleDictionaryConfig = (theme: string) => ({
       transforms: [
         'attribute/cti',
         'name/cti/camel',
-        'sizes/px'
+        'sizes/px',
+        'shadow/boxShadow'
       ],
       transformGroup: 'js',
       buildPath: 'generated/ts/',

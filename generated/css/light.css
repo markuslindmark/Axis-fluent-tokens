@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 22 Mar 2022 13:23:27 GMT
+ * Generated on Tue, 22 Mar 2022 14:31:18 GMT
  */
 
 .light {
@@ -140,10 +140,10 @@
   --color-compound-brand-stroke: #f0b400;
   --color-compound-brand-stroke-hover: #d6a100;
   --color-compound-brand-stroke-pressed: #957000;
-  --shadow-2: [object Object],[object Object];
-  --shadow-4: [object Object],[object Object];
-  --shadow-8: [object Object],[object Object];
-  --shadow-16: [object Object],[object Object];
-  --shadow-28: [object Object],[object Object];
-  --shadow-64: [object Object],[object Object];
+  --shadow-2: 0 1px 2px 0 #00000024, 0 0 2px 0 #0000001f;
+  --shadow-4: 0 2px 4px 0 #00000014, 0 0 2px 0 #0000001f;
+  --shadow-8: 0 4px 8px 0 #00000014, 0 0 2px 0 #0000001f;
+  --shadow-16: 0 8px 16px 0 #00000014, 0 0 2px 0 #0000001f;
+  --shadow-28: 0 14px 28px 0 #00000014, 0 0 8px 0 #0000001f;
+  --shadow-64: 0 32px 64px 0 #00000014, 0 0 8px 0 #0000001f;
 }

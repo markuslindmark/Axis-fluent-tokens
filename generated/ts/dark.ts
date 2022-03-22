@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 22 Mar 2022 13:23:27 GMT
+ * Generated on Tue, 22 Mar 2022 14:31:18 GMT
  */
 
 import { ColorTokens, ShadowTokens, ShadowBrandTokens } from "@fluentui/react-components";
@@ -145,10 +145,10 @@ export const colorTokens: ColorTokens = {
 };
 
 export const shadowTokens: ShadowTokens & ShadowBrandTokens = {
-  shadow2: "[object Object],[object Object]",
-  shadow4: "[object Object],[object Object]",
-  shadow8: "[object Object],[object Object]",
-  shadow16: "[object Object],[object Object]",
-  shadow28: "[object Object],[object Object]",
-  shadow64: "[object Object],[object Object]",
+  shadow2: "0 1px 2px 0 #00000047, 0 0 2px 0 #0000003d",
+  shadow4: "0 2px 4px 0 #00000047, 0 0 2px 0 #0000003d",
+  shadow8: "0 4px 8px 0 #00000047, 0 0 2px 0 #0000003d",
+  shadow16: "0 8px 16px 0 #00000047, 0 0 2px 0 #0000003d",
+  shadow28: "0 14px 28px 0 #00000047, 0 0 8px 0 #0000003d",
+  shadow64: "0 32px 64px 0 #00000047, 0 0 8px 0 #0000003d",
 };

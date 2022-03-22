@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 22 Mar 2022 13:23:27 GMT
+ * Generated on Tue, 22 Mar 2022 14:31:18 GMT
  */
 
 import { LineHeightTokens, FontFamilyTokens, FontSizeTokens, FontWeightTokens, BorderRadiusTokens, StrokeWidthTokens } from "@fluentui/react-components";
@@ -44,7 +44,7 @@ export const fontWeightTokens: FontWeightTokens = {
 };
 
 export const borderRadiusTokens: BorderRadiusTokens = {
-  borderRadiusNone: "0px",
+  borderRadiusNone: "0",
   borderRadiusSmall: "2px",
   borderRadiusMedium: "4px",
   borderRadiusLarge: "6px",
