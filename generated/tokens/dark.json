@@ -79,26 +79,29 @@
           "description": "#FFCC33"
         },
         "2BrandPressed": {
-          "value": "#f0b400",
+          "value": "#cf9d07",
           "type": "color",
-          "description": "#F0B400"
+          "description": "#CF9D07"
         },
         "2BrandSelected": {
-          "value": "#ffcc33",
+          "value": "#eeb509",
           "type": "color",
-          "description": "#FFCC33"
+          "description": "#EEB509"
         },
         "3BrandHover": {
-          "value": "#ffcc33",
-          "type": "color"
+          "value": "#eeb509",
+          "type": "color",
+          "description": "#EEB509"
         },
         "3BrandPressed": {
-          "value": "#f0b400",
-          "type": "color"
+          "value": "#b18605",
+          "type": "color",
+          "description": "#B18605"
         },
         "3BrandSelected": {
-          "value": "#ffcc33",
-          "type": "color"
+          "value": "#eeb509",
+          "type": "color",
+          "description": "#EEB509"
         },
         "InvertedDisabled": {
           "value": "#ffffff66",
@@ -148,29 +151,29 @@
       },
       "Background": {
         "1": {
-          "value": "#303030",
+          "value": "#292929",
           "type": "color",
-          "description": "#303030"
+          "description": "#292929"
         },
         "2": {
-          "value": "#262626",
+          "value": "#242424",
           "type": "color",
-          "description": "#262626"
+          "description": "#242424"
         },
         "3": {
-          "value": "#222222",
+          "value": "#1f1f1f",
           "type": "color",
-          "description": "#222222"
+          "description": "#1F1F1F"
         },
         "4": {
-          "value": "#191919",
+          "value": "#1a1a1a",
           "type": "color",
-          "description": "#191919"
+          "description": "#1A1A1A"
         },
         "5": {
-          "value": "#080808",
+          "value": "#0a0a0a",
           "type": "color",
-          "description": "#080808"
+          "description": "#0A0A0A"
         },
         "6": {
           "value": "#141414",
@@ -180,22 +183,22 @@
         "1Hover": {
           "value": "#383838",
           "type": "color",
-          "description": "#353535"
+          "description": "#383838"
         },
         "1Pressed": {
-          "value": "#272727",
+          "value": "#242424",
           "type": "color",
-          "description": "#272727"
+          "description": "#242424"
         },
         "1Selected": {
-          "value": "#404040",
+          "value": "#424242",
           "type": "color",
-          "description": "#404040"
+          "description": "#424242"
         },
         "2Hover": {
-          "value": "#313131",
+          "value": "#292929",
           "type": "color",
-          "description": "#313131"
+          "description": "#292929"
         },
         "2Pressed": {
           "value": "#242424",
@@ -208,9 +211,9 @@
           "description": "#383838"
         },
         "3Hover": {
-          "value": "#313131",
+          "value": "#292929",
           "type": "color",
-          "description": "#313131"
+          "description": "#292929"
         },
         "3Pressed": {
           "value": "#202020",
@@ -223,39 +226,39 @@
           "description": "#383838"
         },
         "4Hover": {
-          "value": "#373737",
+          "value": "#383838",
           "type": "color",
-          "description": "#373737"
+          "description": "#383838"
         },
         "4Pressed": {
-          "value": "#171717",
+          "value": "#1a1a1a",
           "type": "color",
-          "description": "#171717"
+          "description": "#1A1A1A"
         },
         "4Selected": {
-          "value": "#323232",
+          "value": "#292929",
           "type": "color",
-          "description": "#323232"
+          "description": "#292929"
         },
         "5Hover": {
           "value": "#1f1f1f",
           "type": "color",
-          "description": "#1f1f1f"
+          "description": "#1F1F1F"
         },
         "5Pressed": {
-          "value": "#070707",
+          "value": "#080808",
           "type": "color",
-          "description": "#070707"
+          "description": "#080808"
         },
         "5Selected": {
-          "value": "#282828",
+          "value": "#242424",
           "type": "color",
-          "description": "#282828"
+          "description": "#242424"
         },
         "Inverted": {
-          "value": "#353535",
+          "value": "#333333",
           "type": "color",
-          "description": "#353535"
+          "description": "#333333"
         },
         "InvertedDisabled": {
           "value": "#ffffff1a",
@@ -263,9 +266,9 @@
           "description": "#FFFFFF1A"
         },
         "Disabled": {
-          "value": "#353535",
+          "value": "#333333",
           "type": "color",
-          "description": "#353535"
+          "description": "#333333"
         }
       },
       "Stroke": {
@@ -275,14 +278,14 @@
           "description": "#666666"
         },
         "2": {
-          "value": "#444444",
+          "value": "#424242",
           "type": "color",
-          "description": "#525252"
+          "description": "#424242"
         },
         "3": {
-          "value": "#343434",
+          "value": "#333333",
           "type": "color",
-          "description": "#3D3D3D"
+          "description": "#333333"
         },
         "1Hover": {
           "value": "#757575",
@@ -310,9 +313,9 @@
           "description": "#BDBDBD"
         },
         "AccessiblePressed": {
-          "value": "#b3b3b3",
+          "value": "#b2b2b2",
           "type": "color",
-          "description": "#B3B3B3"
+          "description": "#B2B2B2"
         },
         "AccessibleSelected": {
           "value": "#ffcc33",
@@ -320,9 +323,9 @@
           "description": "#FFCC33"
         },
         "OnBrand": {
-          "value": "#181818",
+          "value": "#1a1a1a",
           "type": "color",
-          "description": "#181818"
+          "description": "#1A1A1A"
         },
         "OnBrand2": {
           "value": "#ffffff",
@@ -402,9 +405,9 @@
     },
     "Brand": {
       "Foreground1": {
-        "value": "#f0b400",
+        "value": "#eeb509",
         "type": "color",
-        "description": "Used in:\nDivider"
+        "description": "#EEB509"
       },
       "Foreground2": {
         "value": "#ffcc33",
@@ -412,59 +415,59 @@
         "description": "#FFCC33"
       },
       "ForegroundLink": {
-        "value": "#f0b400",
+        "value": "#eeb509",
         "type": "color",
-        "description": "#f0b400"
+        "description": "#EEB509"
       },
       "ForegroundLinkHover": {
-        "value": "#d6a100",
+        "value": "#cf9d07",
         "type": "color",
-        "description": "#d6a100"
+        "description": "#CF9D07"
       },
       "ForegroundLinkPressed": {
-        "value": "#957000",
+        "value": "#b18605",
         "type": "color",
-        "description": "#957000"
+        "description": "#B18605"
       },
       "ForegroundLinkSelected": {
-        "value": "#957000",
+        "value": "#957104",
         "type": "color",
-        "description": "#957000"
+        "description": "#957104"
       },
       "ForegroundInverted": {
-        "value": "#957000",
+        "value": "#957104",
         "type": "color",
-        "description": "#957000"
+        "description": "#957104"
       },
       "ForegroundInvertedHover": {
-        "value": "#d6a100",
+        "value": "#cf9d07",
         "type": "color",
-        "description": "#d6a100"
+        "description": "#CF9D07"
       },
       "ForegroundInvertedPressed": {
-        "value": "#ffcc33",
+        "value": "#eeb509",
         "type": "color",
-        "description": "#ffcc33"
+        "description": "#EEB509"
       },
       "ForegroundOnLight": {
-        "value": "#f0b400",
+        "value": "#eeb509",
         "type": "color",
-        "description": "#f0b400"
+        "description": "#EEB509"
       },
       "ForegroundOnLightHover": {
-        "value": "#d6a100",
+        "value": "#cf9d07",
         "type": "color",
-        "description": "#d6a100"
+        "description": "#CF9D07"
       },
       "ForegroundOnLightPressed": {
-        "value": "#957000",
+        "value": "#b18605",
         "type": "color",
-        "description": "#957000"
+        "description": "#B18605"
       },
       "ForegroundOnLightSelected": {
-        "value": "#957000",
+        "value": "#957104",
         "type": "color",
-        "description": "#957000"
+        "description": "#957104"
       },
       "Background": {
         "value": "#ffcc33",
@@ -472,19 +475,19 @@
         "description": "#FFCC33"
       },
       "BackgroundHover": {
-        "value": "#f0b400",
+        "value": "#eeb509",
         "type": "color",
-        "description": "#F0B400"
+        "description": "#EEB509"
       },
       "BackgroundPressed": {
-        "value": "#957000",
+        "value": "#b18605",
         "type": "color",
-        "description": "#957000"
+        "description": "#B18605"
       },
       "BackgroundSelected": {
-        "value": "#d6a100",
+        "value": "#cf9d07",
         "type": "color",
-        "description": "#D6A100"
+        "description": "#CF9D07"
       },
       "BackgroundStatic": {
         "value": "#ffcc33",
@@ -497,9 +500,9 @@
         "description": "#ffffff"
       },
       "BackgroundInvertedHover": {
-        "value": "#fff0c2",
+        "value": "#fff4d1",
         "type": "color",
-        "description": "#fff0c2"
+        "description": "#FFF4D1"
       },
       "BackgroundInvertedPressed": {
         "value": "#ffcc33",
@@ -507,24 +510,24 @@
         "description": "#ffcc33"
       },
       "BackgroundInvertedSelected": {
-        "value": "#ffdf84",
+        "value": "#ffde7a",
         "type": "color",
-        "description": "#ffdf84"
+        "description": "#FFDE7A"
       },
       "Background2": {
-        "value": "#5a4400",
+        "value": "#5c4501",
         "type": "color",
-        "description": "#5A4400"
+        "description": "#5C4501"
       },
       "Stroke1": {
-        "value": "#f0b400",
+        "value": "#eeb509",
         "type": "color",
-        "description": "#f0b400"
+        "description": "#EEB509"
       },
       "Stroke2": {
-        "value": "#957000",
+        "value": "#957104",
         "type": "color",
-        "description": "#957000"
+        "description": "#957104"
       },
       "Shadow": {
         "Ambient": {
@@ -652,29 +655,29 @@
         "description": "#ffcc33"
       },
       "BrandForeground1Hover": {
-        "value": "#d6a100",
+        "value": "#eeb509",
         "type": "color",
-        "description": "#d6a100"
+        "description": "#EEB509"
       },
       "BrandForeground1Pressed": {
-        "value": "#957000",
+        "value": "#b18605",
         "type": "color",
-        "description": "#957000"
+        "description": "#B18605"
       },
       "BrandBackground": {
-        "value": "#f0b400",
+        "value": "#eeb509",
         "type": "color",
-        "description": "#f0b400"
+        "description": "#EEB509"
       },
       "BrandBackgroundHover": {
-        "value": "#d6a100",
+        "value": "#cf9d07",
         "type": "color",
-        "description": "#d6a100"
+        "description": "#CF9D07"
       },
       "BrandBackgroundPressed": {
-        "value": "#957000",
+        "value": "#b18605",
         "type": "color",
-        "description": "#957000"
+        "description": "#B18605"
       },
       "BrandStroke": {
         "value": "#ffcc33",
@@ -682,14 +685,14 @@
         "description": "#ffcc33"
       },
       "BrandStrokeHover": {
-        "value": "#d6a100",
+        "value": "#eeb509",
         "type": "color",
-        "description": "#d6a100"
+        "description": "#EEB509"
       },
       "BrandStrokePressed": {
-        "value": "#957000",
+        "value": "#b18605",
         "type": "color",
-        "description": "#957000"
+        "description": "#B18605"
       }
     }
   },
