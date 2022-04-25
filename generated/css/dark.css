@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 01 Apr 2022 16:04:21 GMT
+ * Generated on Mon, 25 Apr 2022 15:55:25 GMT
  */
 
 .dark {
@@ -48,13 +48,13 @@
   --color-neutral-background-2-pressed: #242424;
   --color-neutral-background-2-selected: #383838;
   --color-neutral-background-3-hover: #292929;
-  --color-neutral-background-3-pressed: #202020;
+  --color-neutral-background-3-pressed: #1F1F1F;
   --color-neutral-background-3-selected: #383838;
   --color-neutral-background-4-hover: #383838;
   --color-neutral-background-4-pressed: #1a1a1a;
   --color-neutral-background-4-selected: #292929;
   --color-neutral-background-5-hover: #1f1f1f;
-  --color-neutral-background-5-pressed: #080808;
+  --color-neutral-background-5-pressed: #0A0A0A;
   --color-neutral-background-5-selected: #242424;
   --color-neutral-background-inverted: #333333;
   --color-neutral-background-inverted-disabled: #ffffff1a;
@@ -140,10 +140,6 @@
   --color-compound-brand-stroke: #ffcc33;
   --color-compound-brand-stroke-hover: #eeb509;
   --color-compound-brand-stroke-pressed: #b18605;
-  --shadow-2: 0 1px 2px 0 #00000047, 0 0 2px 0 #0000003d;
-  --shadow-4: 0 2px 4px 0 #00000047, 0 0 2px 0 #0000003d;
-  --shadow-8: 0 4px 8px 0 #00000047, 0 0 2px 0 #0000003d;
-  --shadow-16: 0 8px 16px 0 #00000047, 0 0 2px 0 #0000003d;
-  --shadow-28: 0 14px 28px 0 #00000047, 0 0 8px 0 #0000003d;
-  --shadow-64: 0 32px 64px 0 #00000047, 0 0 8px 0 #0000003d;
+  --color-background-overlay: #00000080;
+  --color-scrollbar-overlay: #ffffff99;
 }

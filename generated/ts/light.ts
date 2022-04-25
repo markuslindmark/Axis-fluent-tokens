@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 01 Apr 2022 16:04:21 GMT
+ * Generated on Mon, 25 Apr 2022 15:55:25 GMT
  */
 
 import { ColorTokens, ShadowTokens, ShadowBrandTokens } from "@fluentui/react-components";
@@ -41,7 +41,7 @@ export const colorTokens: ColorTokens = {
   colorNeutralBackground2: "#fafafa",
   colorNeutralBackground3: "#f5f5f5",
   colorNeutralBackground4: "#f0f0f0",
-  colorNeutralBackground5: "#e2e2e2",
+  colorNeutralBackground5: "#E0E0E0",
   colorNeutralBackground6: "#f5f5f5",
   colorNeutralBackground1Hover: "#f5f5f5",
   colorNeutralBackground1Pressed: "#e0e0e0",
@@ -62,7 +62,7 @@ export const colorTokens: ColorTokens = {
   colorNeutralBackgroundInvertedDisabled: "#ffffff1a",
   colorNeutralBackgroundDisabled: "#f0f0f0",
   colorNeutralStroke1: "#d1d1d1",
-  colorNeutralStroke2: "#d9d9d9",
+  colorNeutralStroke2: "#DBDBDB",
   colorNeutralStroke3: "#f0f0f0",
   colorNeutralStroke1Hover: "#c7c7c7",
   colorNeutralStroke1Pressed: "#b2b2b2",
@@ -142,19 +142,6 @@ export const colorTokens: ColorTokens = {
   colorCompoundBrandStroke: "#eeb509",
   colorCompoundBrandStrokeHover: "#cf9d07",
   colorCompoundBrandStrokePressed: "#957104",
-};
-
-export const shadowTokens: ShadowTokens & ShadowBrandTokens = {
-  shadow2: "0 1px 2px 0 #00000024, 0 0 2px 0 #0000001f",
-  shadow4: "0 2px 4px 0 #00000014, 0 0 2px 0 #0000001f",
-  shadow8: "0 4px 8px 0 #00000014, 0 0 2px 0 #0000001f",
-  shadow16: "0 8px 16px 0 #00000014, 0 0 2px 0 #0000001f",
-  shadow28: "0 14px 28px 0 #00000014, 0 0 8px 0 #0000001f",
-  shadow64: "0 32px 64px 0 #00000014, 0 0 8px 0 #0000001f",
-  shadow2Brand: "0 1px 2px 0 #00000024, 0 0 2px 0 #0000001f",
-  shadow4Brand: "0 2px 4px 0 #00000014, 0 0 2px 0 #0000001f",
-  shadow8Brand: "0 4px 8px 0 #00000014, 0 0 2px 0 #0000001f",
-  shadow16Brand: "0 8px 16px 0 #00000014, 0 0 2px 0 #0000001f",
-  shadow28Brand: "0 14px 28px 0 #00000014, 0 0 8px 0 #0000001f",
-  shadow64Brand: "0 32px 64px 0 #00000014, 0 0 8px 0 #0000001f",
+  colorBackgroundOverlay: "#0000001a",
+  colorScrollbarOverlay: "#00000080",
 };

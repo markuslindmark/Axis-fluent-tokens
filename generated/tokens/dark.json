@@ -216,9 +216,9 @@
           "description": "#292929"
         },
         "3Pressed": {
-          "value": "#202020",
+          "value": "#1F1F1F",
           "type": "color",
-          "description": "#202020"
+          "description": "#1F1F1F"
         },
         "3Selected": {
           "value": "#383838",
@@ -246,9 +246,9 @@
           "description": "#1F1F1F"
         },
         "5Pressed": {
-          "value": "#080808",
+          "value": "#0A0A0A",
           "type": "color",
-          "description": "#080808"
+          "description": "#0A0A0A"
         },
         "5Selected": {
           "value": "#242424",
@@ -694,134 +694,18 @@
         "type": "color",
         "description": "#B18605"
       }
-    }
-  },
-  "shadow": {
-    "2": {
-      "value": [
-        {
-          "color": "#00000047",
-          "type": "dropShadow",
-          "x": 0,
-          "y": 1,
-          "blur": 2,
-          "spread": 0
-        },
-        {
-          "color": "#0000003d",
-          "type": "dropShadow",
-          "x": 0,
-          "y": 0,
-          "blur": 2,
-          "spread": 0
-        }
-      ],
-      "type": "boxShadow"
     },
-    "4": {
-      "value": [
-        {
-          "color": "#00000047",
-          "type": "dropShadow",
-          "x": 0,
-          "y": 2,
-          "blur": 4,
-          "spread": 0
-        },
-        {
-          "color": "#0000003d",
-          "type": "dropShadow",
-          "x": 0,
-          "y": 0,
-          "blur": 2,
-          "spread": 0
-        }
-      ],
-      "type": "boxShadow"
+    "Background": {
+      "Overlay": {
+        "value": "#00000080",
+        "type": "color"
+      }
     },
-    "8": {
-      "value": [
-        {
-          "color": "#00000047",
-          "type": "dropShadow",
-          "x": 0,
-          "y": 4,
-          "blur": 8,
-          "spread": 0
-        },
-        {
-          "color": "#0000003d",
-          "type": "dropShadow",
-          "x": 0,
-          "y": 0,
-          "blur": 2,
-          "spread": 0
-        }
-      ],
-      "type": "boxShadow"
-    },
-    "16": {
-      "value": [
-        {
-          "color": "#00000047",
-          "type": "dropShadow",
-          "x": 0,
-          "y": 8,
-          "blur": 16,
-          "spread": 0
-        },
-        {
-          "color": "#0000003d",
-          "type": "dropShadow",
-          "x": 0,
-          "y": 0,
-          "blur": 2,
-          "spread": 0
-        }
-      ],
-      "type": "boxShadow"
-    },
-    "28": {
-      "value": [
-        {
-          "color": "#00000047",
-          "type": "dropShadow",
-          "x": 0,
-          "y": 14,
-          "blur": 28,
-          "spread": 0
-        },
-        {
-          "color": "#0000003d",
-          "type": "dropShadow",
-          "x": 0,
-          "y": 0,
-          "blur": 8,
-          "spread": 0
-        }
-      ],
-      "type": "boxShadow"
-    },
-    "64": {
-      "value": [
-        {
-          "color": "#00000047",
-          "type": "dropShadow",
-          "x": 0,
-          "y": 32,
-          "blur": 64,
-          "spread": 0
-        },
-        {
-          "color": "#0000003d",
-          "type": "dropShadow",
-          "x": 0,
-          "y": 0,
-          "blur": 8,
-          "spread": 0
-        }
-      ],
-      "type": "boxShadow"
+    "Scrollbar": {
+      "Overlay": {
+        "value": "#ffffff99",
+        "type": "color"
+      }
     }
   }
 }
