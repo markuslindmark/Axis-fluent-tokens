@@ -707,5 +707,55 @@
         "type": "color"
       }
     }
+  },
+  "shadow": {
+    "2": {
+      "value": "0 0 2px #0000003d, 0 1px 2px #00000047",
+      "type": "other"
+    },
+    "4": {
+      "value": "0 0 2px #0000003d, 0 2px 4px #00000047",
+      "type": "other"
+    },
+    "8": {
+      "value": "0 0 2px #0000003d, 0 4px 8px #00000047",
+      "type": "other"
+    },
+    "16": {
+      "value": "0 0 2px #0000003d, 0 8px 16px #00000047",
+      "type": "other"
+    },
+    "28": {
+      "value": "0 0 8px #0000003d, 0 14px 28px #00000047",
+      "type": "other"
+    },
+    "64": {
+      "value": "0 0 8px #0000003d, 0 32px 64px #00000047",
+      "type": "other"
+    },
+    "shadow2Brand": {
+      "value": "0 0 2px #0000004d, 0 1px 2px #00000040",
+      "type": "other"
+    },
+    "shadow4Brand": {
+      "value": "0 0 2px #0000004d, 0 2px 4px #00000040",
+      "type": "other"
+    },
+    "shadow8Brand": {
+      "value": "0 0 2px #0000004d, 0 4px 8px #00000040",
+      "type": "other"
+    },
+    "shadow16Brand": {
+      "value": "0 0 2px #0000004d, 0 8px 16px #00000040",
+      "type": "other"
+    },
+    "shadow28Brand": {
+      "value": "0 0 8px #0000004d, 0 14px 28px #00000040",
+      "type": "other"
+    },
+    "shadow64Brand": {
+      "value": "0 0 8px #0000004d, 0 32px 64px #00000040",
+      "type": "other"
+    }
   }
 }

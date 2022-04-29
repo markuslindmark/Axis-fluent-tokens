@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 28 Apr 2022 12:53:20 GMT
+ * Generated on Fri, 29 Apr 2022 07:59:44 GMT
  */
 
 import { ColorTokens, ShadowTokens, ShadowBrandTokens } from "@fluentui/react-components";
@@ -144,4 +144,31 @@ export const colorTokens: ColorTokens = {
   colorCompoundBrandStrokePressed: "#b18605",
   colorBackgroundOverlay: "#00000080",
   colorScrollbarOverlay: "#ffffff99",
+};
+
+export const shadowTokens: ShadowTokens & ShadowBrandTokens = {
+  shadow2: "0 0 2px #0000003d, 0 1px 2px #00000047",
+  shadow4: "0 0 2px #0000003d, 0 2px 4px #00000047",
+  shadow8: "0 0 2px #0000003d, 0 4px 8px #00000047",
+  shadow16: "0 0 2px #0000003d, 0 8px 16px #00000047",
+  shadow28: "0 0 8px #0000003d, 0 14px 28px #00000047",
+  shadow64: "0 0 8px #0000003d, 0 32px 64px #00000047",
+  shadowShadow2Brand: "0 0 2px #0000004d, 0 1px 2px #00000040",
+  shadowShadow4Brand: "0 0 2px #0000004d, 0 2px 4px #00000040",
+  shadowShadow8Brand: "0 0 2px #0000004d, 0 4px 8px #00000040",
+  shadowShadow16Brand: "0 0 2px #0000004d, 0 8px 16px #00000040",
+  shadowShadow28Brand: "0 0 8px #0000004d, 0 14px 28px #00000040",
+  shadowShadow64Brand: "0 0 8px #0000004d, 0 32px 64px #00000040",
+  shadow2Brand: "0 0 2px #0000003d, 0 1px 2px #00000047",
+  shadow4Brand: "0 0 2px #0000003d, 0 2px 4px #00000047",
+  shadow8Brand: "0 0 2px #0000003d, 0 4px 8px #00000047",
+  shadow16Brand: "0 0 2px #0000003d, 0 8px 16px #00000047",
+  shadow28Brand: "0 0 8px #0000003d, 0 14px 28px #00000047",
+  shadow64Brand: "0 0 8px #0000003d, 0 32px 64px #00000047",
+  shadowShadow2BrandBrand: "0 0 2px #0000004d, 0 1px 2px #00000040",
+  shadowShadow4BrandBrand: "0 0 2px #0000004d, 0 2px 4px #00000040",
+  shadowShadow8BrandBrand: "0 0 2px #0000004d, 0 4px 8px #00000040",
+  shadowShadow16BrandBrand: "0 0 2px #0000004d, 0 8px 16px #00000040",
+  shadowShadow28BrandBrand: "0 0 8px #0000004d, 0 14px 28px #00000040",
+  shadowShadow64BrandBrand: "0 0 8px #0000004d, 0 32px 64px #00000040",
 };
