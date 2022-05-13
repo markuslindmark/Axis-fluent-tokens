@@ -69,17 +69,12 @@
     "dark.colorBackgroundOverlay",
     "light.colorScrollbarOverlay"
   ],
-  "#0A0A0A": [
-    "dark.colorNeutralBackground5Pressed"
-  ],
   "#0a0a0a": [
-    "dark.colorNeutralBackground5"
+    "dark.colorNeutralBackground5",
+    "dark.colorNeutralBackground5Pressed"
   ],
   "#141414": [
     "dark.colorNeutralBackground6"
-  ],
-  "#1F1F1F": [
-    "dark.colorNeutralBackground3Pressed"
   ],
   "#1a1a1a": [
     "dark.colorNeutralBackground4",
@@ -88,6 +83,7 @@
   ],
   "#1f1f1f": [
     "dark.colorNeutralBackground3",
+    "dark.colorNeutralBackground3Pressed",
     "dark.colorNeutralBackground5Hover"
   ],
   "#242424": [
@@ -104,7 +100,10 @@
     "light.colorNeutralForeground2Selected",
     "light.colorNeutralForeground2BrandHover",
     "light.colorNeutralForeground2BrandPressed",
-    "light.colorNeutralForeground2BrandSelected"
+    "light.colorNeutralForeground2BrandSelected",
+    "light.colorBrandForeground2LinkHover",
+    "light.colorBrandForeground2LinkPressed",
+    "light.colorBrandForeground2LinkSelected"
   ],
   "#292929": [
     "dark.colorNeutralBackground1",
@@ -135,7 +134,8 @@
     "light.colorNeutralForeground2",
     "light.colorNeutralForeground3Hover",
     "light.colorNeutralForeground3Pressed",
-    "light.colorNeutralForeground3Selected"
+    "light.colorNeutralForeground3Selected",
+    "light.colorBrandForeground2Link"
   ],
   "#4d4d4d": [
     "light.colorNeutralStrokeAccessiblePressed"
@@ -190,11 +190,8 @@
   "#999999": [
     "dark.colorNeutralForeground4"
   ],
-  "#DBDBDB": [
-    "light.colorNeutralStroke2"
-  ],
-  "#E0E0E0": [
-    "light.colorNeutralBackground5"
+  "#D6D6D6": [
+    "dark.colorBrandForeground2Link"
   ],
   "#adadad": [
     "dark.colorNeutralForeground3",
@@ -249,9 +246,11 @@
   ],
   "#dbdbdb": [
     "light.colorNeutralBackground3Pressed",
+    "light.colorNeutralStroke2",
     "light.colorNeutralStrokeOnBrand"
   ],
   "#e0e0e0": [
+    "light.colorNeutralBackground5",
     "light.colorNeutralBackground1Pressed",
     "light.colorNeutralStrokeDisabled"
   ],
@@ -355,6 +354,9 @@
     "dark.colorNeutralStrokeOnBrand2Pressed",
     "dark.colorNeutralStrokeOnBrand2Selected",
     "dark.colorBrandBackgroundInverted",
+    "dark.colorBrandForeground2LinkHover",
+    "dark.colorBrandForeground2LinkPressed",
+    "dark.colorBrandForeground2LinkSelected",
     "dark.colorStrokeFocus2",
     "light.colorNeutralForegroundInverted",
     "light.colorNeutralForegroundInvertedHover",

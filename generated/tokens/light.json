@@ -179,7 +179,7 @@
           "description": "#F0F0F0"
         },
         "5": {
-          "value": "#E0E0E0",
+          "value": "#e0e0e0",
           "type": "color",
           "description": "#E0E0E0"
         },
@@ -286,7 +286,7 @@
           "description": "#D1D1D1"
         },
         "2": {
-          "value": "#DBDBDB",
+          "value": "#dbdbdb",
           "type": "color",
           "description": "#DBDBDB"
         },
@@ -560,6 +560,24 @@
         "value": "#ffde7a",
         "type": "color",
         "description": "#FFDE7A"
+      },
+      "Foreground2Link": {
+        "value": "#424242",
+        "type": "color"
+      },
+      "Foreground2LinkHover": {
+        "value": "#242424",
+        "type": "color",
+        "description": "#242424"
+      },
+      "Foreground2LinkPressed": {
+        "value": "#242424",
+        "type": "color"
+      },
+      "Foreground2LinkSelected": {
+        "value": "#242424",
+        "type": "color",
+        "description": "#242424"
       }
     },
     "Subtle": {

@@ -1,6 +1,6 @@
 <!--
   Do not edit directly
-  Generated on Fri, 29 Apr 2022 08:35:58 GMT
+  Generated on Fri, 13 May 2022 13:21:30 GMT
 -->
 <ResourceDictionary
   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -50,13 +50,13 @@
   <Color x:Key="Dark.ColorNeutralBackground2Pressed">#242424</Color>
   <Color x:Key="Dark.ColorNeutralBackground2Selected">#383838</Color>
   <Color x:Key="Dark.ColorNeutralBackground3Hover">#292929</Color>
-  <Color x:Key="Dark.ColorNeutralBackground3Pressed">#1F1F1F</Color>
+  <Color x:Key="Dark.ColorNeutralBackground3Pressed">#1f1f1f</Color>
   <Color x:Key="Dark.ColorNeutralBackground3Selected">#383838</Color>
   <Color x:Key="Dark.ColorNeutralBackground4Hover">#383838</Color>
   <Color x:Key="Dark.ColorNeutralBackground4Pressed">#1a1a1a</Color>
   <Color x:Key="Dark.ColorNeutralBackground4Selected">#292929</Color>
   <Color x:Key="Dark.ColorNeutralBackground5Hover">#1f1f1f</Color>
-  <Color x:Key="Dark.ColorNeutralBackground5Pressed">#0A0A0A</Color>
+  <Color x:Key="Dark.ColorNeutralBackground5Pressed">#0a0a0a</Color>
   <Color x:Key="Dark.ColorNeutralBackground5Selected">#242424</Color>
   <Color x:Key="Dark.ColorNeutralBackgroundInverted">#333333</Color>
   <Color x:Key="Dark.ColorNeutralBackgroundInvertedDisabled">#ffffff1a</Color>
@@ -113,6 +113,10 @@
   <Color x:Key="Dark.ColorBrandStroke2">#957104</Color>
   <Color x:Key="Dark.ColorBrandShadowAmbient">#0000001f</Color>
   <Color x:Key="Dark.ColorBrandShadowKey">#00000024</Color>
+  <Color x:Key="Dark.ColorBrandForeground2Link">#D6D6D6</Color>
+  <Color x:Key="Dark.ColorBrandForeground2LinkHover">#ffffff</Color>
+  <Color x:Key="Dark.ColorBrandForeground2LinkPressed">#ffffff</Color>
+  <Color x:Key="Dark.ColorBrandForeground2LinkSelected">#ffffff</Color>
   <Color x:Key="Dark.ColorSubtleBackground">#ffffff00</Color>
   <Color x:Key="Dark.ColorSubtleBackgroundHover">#ffffff17</Color>
   <Color x:Key="Dark.ColorSubtleBackgroundPressed">#ffffff12</Color>
@@ -179,7 +183,7 @@
   <Color x:Key="Light.ColorNeutralBackground2">#fafafa</Color>
   <Color x:Key="Light.ColorNeutralBackground3">#f5f5f5</Color>
   <Color x:Key="Light.ColorNeutralBackground4">#f0f0f0</Color>
-  <Color x:Key="Light.ColorNeutralBackground5">#E0E0E0</Color>
+  <Color x:Key="Light.ColorNeutralBackground5">#e0e0e0</Color>
   <Color x:Key="Light.ColorNeutralBackground6">#f5f5f5</Color>
   <Color x:Key="Light.ColorNeutralBackground1Hover">#f5f5f5</Color>
   <Color x:Key="Light.ColorNeutralBackground1Pressed">#e0e0e0</Color>
@@ -200,7 +204,7 @@
   <Color x:Key="Light.ColorNeutralBackgroundInvertedDisabled">#ffffff1a</Color>
   <Color x:Key="Light.ColorNeutralBackgroundDisabled">#f0f0f0</Color>
   <Color x:Key="Light.ColorNeutralStroke1">#d1d1d1</Color>
-  <Color x:Key="Light.ColorNeutralStroke2">#DBDBDB</Color>
+  <Color x:Key="Light.ColorNeutralStroke2">#dbdbdb</Color>
   <Color x:Key="Light.ColorNeutralStroke3">#f0f0f0</Color>
   <Color x:Key="Light.ColorNeutralStroke1Hover">#c7c7c7</Color>
   <Color x:Key="Light.ColorNeutralStroke1Pressed">#b2b2b2</Color>
@@ -253,6 +257,10 @@
   <Color x:Key="Light.ColorBrandShadowKey">#00000024</Color>
   <Color x:Key="Light.ColorBrandStroke1">#eeb509</Color>
   <Color x:Key="Light.ColorBrandStroke2">#ffde7a</Color>
+  <Color x:Key="Light.ColorBrandForeground2Link">#424242</Color>
+  <Color x:Key="Light.ColorBrandForeground2LinkHover">#242424</Color>
+  <Color x:Key="Light.ColorBrandForeground2LinkPressed">#242424</Color>
+  <Color x:Key="Light.ColorBrandForeground2LinkSelected">#242424</Color>
   <Color x:Key="Light.ColorSubtleBackground">#00000000</Color>
   <Color x:Key="Light.ColorSubtleBackgroundHover">#0000000a</Color>
   <Color x:Key="Light.ColorSubtleBackgroundPressed">#0000001f</Color>

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 29 Apr 2022 08:35:58 GMT
+ * Generated on Fri, 13 May 2022 13:21:29 GMT
  */
 
 .dark {
@@ -48,13 +48,13 @@
   --color-neutral-background-2-pressed: #242424;
   --color-neutral-background-2-selected: #383838;
   --color-neutral-background-3-hover: #292929;
-  --color-neutral-background-3-pressed: #1F1F1F;
+  --color-neutral-background-3-pressed: #1f1f1f;
   --color-neutral-background-3-selected: #383838;
   --color-neutral-background-4-hover: #383838;
   --color-neutral-background-4-pressed: #1a1a1a;
   --color-neutral-background-4-selected: #292929;
   --color-neutral-background-5-hover: #1f1f1f;
-  --color-neutral-background-5-pressed: #0A0A0A;
+  --color-neutral-background-5-pressed: #0a0a0a;
   --color-neutral-background-5-selected: #242424;
   --color-neutral-background-inverted: #333333;
   --color-neutral-background-inverted-disabled: #ffffff1a;
@@ -111,6 +111,10 @@
   --color-brand-stroke2: #957104;
   --color-brand-shadow-ambient: #0000001f;
   --color-brand-shadow-key: #00000024;
+  --color-brand-foreground2-link: #D6D6D6;
+  --color-brand-foreground2-link-hover: #ffffff;
+  --color-brand-foreground2-link-pressed: #ffffff;
+  --color-brand-foreground2-link-selected: #ffffff;
   --color-subtle-background: #ffffff00;
   --color-subtle-background-hover: #ffffff17;
   --color-subtle-background-pressed: #ffffff12;

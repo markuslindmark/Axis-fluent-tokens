@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 29 Apr 2022 08:35:58 GMT
+ * Generated on Fri, 13 May 2022 13:21:29 GMT
  */
 
 import { ColorTokens, ShadowTokens, ShadowBrandTokens } from "@fluentui/react-components";
@@ -41,7 +41,7 @@ export const colorTokens: ColorTokens = {
   colorNeutralBackground2: "#fafafa",
   colorNeutralBackground3: "#f5f5f5",
   colorNeutralBackground4: "#f0f0f0",
-  colorNeutralBackground5: "#E0E0E0",
+  colorNeutralBackground5: "#e0e0e0",
   colorNeutralBackground6: "#f5f5f5",
   colorNeutralBackground1Hover: "#f5f5f5",
   colorNeutralBackground1Pressed: "#e0e0e0",
@@ -62,7 +62,7 @@ export const colorTokens: ColorTokens = {
   colorNeutralBackgroundInvertedDisabled: "#ffffff1a",
   colorNeutralBackgroundDisabled: "#f0f0f0",
   colorNeutralStroke1: "#d1d1d1",
-  colorNeutralStroke2: "#DBDBDB",
+  colorNeutralStroke2: "#dbdbdb",
   colorNeutralStroke3: "#f0f0f0",
   colorNeutralStroke1Hover: "#c7c7c7",
   colorNeutralStroke1Pressed: "#b2b2b2",
@@ -115,6 +115,10 @@ export const colorTokens: ColorTokens = {
   colorBrandShadowKey: "#00000024",
   colorBrandStroke1: "#eeb509",
   colorBrandStroke2: "#ffde7a",
+  colorBrandForeground2Link: "#424242",
+  colorBrandForeground2LinkHover: "#242424",
+  colorBrandForeground2LinkPressed: "#242424",
+  colorBrandForeground2LinkSelected: "#242424",
   colorSubtleBackground: "#00000000",
   colorSubtleBackgroundHover: "#0000000a",
   colorSubtleBackgroundPressed: "#0000001f",
