@@ -2,21 +2,28 @@ import StyleDictionaryPackage, { Dictionary, Platform } from 'style-dictionary';
 
 const getTypeName = (category: string) => `${category[0].toUpperCase()}${category.substring(1)}Tokens`;
 
-const getTsTokens = (dictionary: Dictionary, category: string): string | undefined => {
-  const tokens = dictionary.allTokens
-    .filter(t => t.attributes?.category === category)
+const getTsTokens = (sortCategories: string[], dictionary: Dictionary, category: string): string | undefined => {
+  let tokens = dictionary.allTokens
+    .filter(t => t.attributes?.category === category);
+  if (sortCategories.includes(category)) {
+    tokens = tokens.sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }));
+  }
+  const tokensString = tokens
     .map(t => t.attributes?.category == "fontWeight"
       ? `${t.name}: ${t.value},`
-      : `${t.name}: "${t.value}",`)
+      : t.attributes?.category == "color"
+        ? `${t.name}: "${(t.value as string).toLowerCase()}",`
+        : `${t.name}: "${t.value}",`)
     .join('\n  ');
+
   if (category === 'shadow') {
-    return tokens.length > 0
-      ? `export const ${category}Tokens: ShadowTokens & ShadowBrandTokens = {\n  ${tokens}\n};`
+    return tokensString.length > 0
+      ? `export const ${category}Tokens: ShadowTokens & ShadowBrandTokens = {\n  ${tokensString}\n};`
       : undefined;
   }
   const typeName = getTypeName(category);
-  return tokens.length > 0
-    ? `export const ${category}Tokens: ${typeName} = {\n  ${tokens}\n};`
+  return tokensString.length > 0
+    ? `export const ${category}Tokens: ${typeName} = {\n  ${tokensString}\n};`
     : undefined;
 };
 
@@ -35,7 +42,7 @@ StyleDictionaryPackage.registerFormat({
   name: 'typescript/fluentui',
   formatter: ({ dictionary, options }) => {
     const tokens = options.categories
-      .map((c: string) => getTsTokens(dictionary, c))
+      .map((c: string) => getTsTokens(options.sortCategories, dictionary, c))
       .filter((t: string | undefined) => !!t)
       .join('\n\n');
     return `${getTsFileHeader()}\n\n${getTsImports(options.categories)}\n\n${tokens}\n`
@@ -69,6 +76,12 @@ export const getTsPlatform: (theme: string) => Platform = (theme) => ({
           'color',
           'shadow',
         ],
+      sortCategories: [
+        'color',
+        'shadow',
+        'lineHeight',
+        'fontSize',
+      ]
     }
   }]
 })

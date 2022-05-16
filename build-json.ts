@@ -4,7 +4,8 @@ import StyleDictionaryPackage, { Dictionary, Platform } from 'style-dictionary';
 const getJsonColorToTokensDict = (dictionary: Dictionary, theme: string): Record<string, string[]> => {
   const colorDict: Record<string, string[]> = {};
   for (const token of dictionary.allTokens.filter(t => t.attributes?.category === 'color')) {
-    colorDict[token.value] = [...(colorDict[token.value] ?? []), `${theme}.${token.name}`]
+    const k = (token.value as string).toLowerCase();
+    colorDict[k] = [...(colorDict[k] ?? []), `${theme}.${token.name}`]
   }
   return colorDict;
 };
@@ -50,7 +51,8 @@ export const mergeJsonDictFiles = () => {
     const jsonContent: Record<string, string[]> = JSON.parse(readFileSync(src).toString());
     unlinkSync(src);
     for (const key of Object.keys(jsonContent)) {
-      dict[key] = [...(dict[key] ?? []), ...jsonContent[key]]
+      const k = key.toLowerCase();
+      dict[k] = [...(dict[k] ?? []), ...jsonContent[k]]
     }
   }
   writeFileSync(destination, Buffer.from(JSON.stringify(dict, Object.keys(dict).sort(), '  ')));
