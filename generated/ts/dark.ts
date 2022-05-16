@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 13 May 2022 13:22:35 GMT
+ * Generated on Mon, 16 May 2022 07:47:03 GMT
  */
 
 import { ColorTokens, ShadowTokens, ShadowBrandTokens } from "@fluentui/react-components";
@@ -37,6 +37,9 @@ export const colorTokens: ColorTokens = {
   colorNeutralForegroundInvertedLinkHover: "#ffffff",
   colorNeutralForegroundInvertedLinkPressed: "#ffffff",
   colorNeutralForegroundInvertedLinkSelected: "#ffffff",
+  colorNeutralForeground2LinkHover: "#ffffff",
+  colorNeutralForeground2LinkPressed: "#ffffff",
+  colorNeutralForeground2LinkSelected: "#ffffff",
   colorNeutralBackground1: "#292929",
   colorNeutralBackground2: "#242424",
   colorNeutralBackground3: "#1f1f1f",
@@ -113,10 +116,6 @@ export const colorTokens: ColorTokens = {
   colorBrandStroke2: "#957104",
   colorBrandShadowAmbient: "#0000001f",
   colorBrandShadowKey: "#00000024",
-  colorBrandForeground2Link: "#D6D6D6",
-  colorBrandForeground2LinkHover: "#ffffff",
-  colorBrandForeground2LinkPressed: "#ffffff",
-  colorBrandForeground2LinkSelected: "#ffffff",
   colorSubtleBackground: "#ffffff00",
   colorSubtleBackgroundHover: "#ffffff17",
   colorSubtleBackgroundPressed: "#ffffff12",
@@ -151,16 +150,10 @@ export const colorTokens: ColorTokens = {
 };
 
 export const shadowTokens: ShadowTokens & ShadowBrandTokens = {
-  shadow2: "0 0 2px #0000003d, 0 1px 2px #00000047",
-  shadow4: "0 0 2px #0000003d, 0 2px 4px #00000047",
-  shadow8: "0 0 2px #0000003d, 0 4px 8px #00000047",
-  shadow16: "0 0 2px #0000003d, 0 8px 16px #00000047",
-  shadow28: "0 0 8px #0000003d, 0 14px 28px #00000047",
-  shadow64: "0 0 8px #0000003d, 0 32px 64px #00000047",
-  shadow2Brand: "0 0 2px #0000004d, 0 1px 2px #00000040",
-  shadow4Brand: "0 0 2px #0000004d, 0 2px 4px #00000040",
-  shadow8Brand: "0 0 2px #0000004d, 0 4px 8px #00000040",
-  shadow16Brand: "0 0 2px #0000004d, 0 8px 16px #00000040",
-  shadow28Brand: "0 0 8px #0000004d, 0 14px 28px #00000040",
-  shadow64Brand: "0 0 8px #0000004d, 0 32px 64px #00000040",
+  shadow2: "0 1px 2px 0 #00000047, 0 0 2px 0 #0000003d",
+  shadow4: "0 2px 4px 0 #00000047, 0 0 2px 0 #0000003d",
+  shadow8: "0 4px 8px 0 #00000047, 0 0 2px 0 #0000003d",
+  shadow16: "0 8px 16px 0 #00000047, 0 0 2px 0 #0000003d",
+  shadow28: "0 14px 28px 0 #00000047, 0 0 8px 0 #0000003d",
+  shadow64: "0 32px 64px 0 #00000047, 0 0 8px 0 #0000003d",
 };

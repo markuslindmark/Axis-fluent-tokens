@@ -147,6 +147,21 @@
           "value": "#ffffff",
           "type": "color",
           "description": "#ffffff"
+        },
+        "2LinkHover": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "#FFFFFF"
+        },
+        "2LinkPressed": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "#FFFFFF"
+        },
+        "2LinkSelected": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "#FFFFFF"
         }
       },
       "Background": {
@@ -540,26 +555,6 @@
           "type": "color",
           "description": "#00000024"
         }
-      },
-      "Foreground2Link": {
-        "value": "#D6D6D6",
-        "type": "color",
-        "description": "#D6D6D6"
-      },
-      "Foreground2LinkHover": {
-        "value": "#ffffff",
-        "type": "color",
-        "description": "#FFFFFF"
-      },
-      "Foreground2LinkPressed": {
-        "value": "#ffffff",
-        "type": "color",
-        "description": "#FFFFFF"
-      },
-      "Foreground2LinkSelected": {
-        "value": "#ffffff",
-        "type": "color",
-        "description": "#FFFFFF"
       }
     },
     "Subtle": {
@@ -730,52 +725,130 @@
   },
   "shadow": {
     "2": {
-      "value": "0 0 2px #0000003d, 0 1px 2px #00000047",
-      "type": "other"
+      "value": [
+        {
+          "color": "#00000047",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 1,
+          "blur": 2,
+          "spread": 0
+        },
+        {
+          "color": "#0000003d",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 2,
+          "spread": 0
+        }
+      ],
+      "type": "boxShadow"
     },
     "4": {
-      "value": "0 0 2px #0000003d, 0 2px 4px #00000047",
-      "type": "other"
+      "value": [
+        {
+          "color": "#00000047",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 2,
+          "blur": 4,
+          "spread": 0
+        },
+        {
+          "color": "#0000003d",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 2,
+          "spread": 0
+        }
+      ],
+      "type": "boxShadow"
     },
     "8": {
-      "value": "0 0 2px #0000003d, 0 4px 8px #00000047",
-      "type": "other"
+      "value": [
+        {
+          "color": "#00000047",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 4,
+          "blur": 8,
+          "spread": 0
+        },
+        {
+          "color": "#0000003d",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 2,
+          "spread": 0
+        }
+      ],
+      "type": "boxShadow"
     },
     "16": {
-      "value": "0 0 2px #0000003d, 0 8px 16px #00000047",
-      "type": "other"
+      "value": [
+        {
+          "color": "#00000047",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 8,
+          "blur": 16,
+          "spread": 0
+        },
+        {
+          "color": "#0000003d",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 2,
+          "spread": 0
+        }
+      ],
+      "type": "boxShadow"
     },
     "28": {
-      "value": "0 0 8px #0000003d, 0 14px 28px #00000047",
-      "type": "other"
+      "value": [
+        {
+          "color": "#00000047",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 14,
+          "blur": 28,
+          "spread": 0
+        },
+        {
+          "color": "#0000003d",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 8,
+          "spread": 0
+        }
+      ],
+      "type": "boxShadow"
     },
     "64": {
-      "value": "0 0 8px #0000003d, 0 32px 64px #00000047",
-      "type": "other"
-    },
-    "2Brand": {
-      "value": "0 0 2px #0000004d, 0 1px 2px #00000040",
-      "type": "other"
-    },
-    "4Brand": {
-      "value": "0 0 2px #0000004d, 0 2px 4px #00000040",
-      "type": "other"
-    },
-    "8Brand": {
-      "value": "0 0 2px #0000004d, 0 4px 8px #00000040",
-      "type": "other"
-    },
-    "16Brand": {
-      "value": "0 0 2px #0000004d, 0 8px 16px #00000040",
-      "type": "other"
-    },
-    "28Brand": {
-      "value": "0 0 8px #0000004d, 0 14px 28px #00000040",
-      "type": "other"
-    },
-    "64Brand": {
-      "value": "0 0 8px #0000004d, 0 32px 64px #00000040",
-      "type": "other"
+      "value": [
+        {
+          "color": "#00000047",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 32,
+          "blur": 64,
+          "spread": 0
+        },
+        {
+          "color": "#0000003d",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 8,
+          "spread": 0
+        }
+      ],
+      "type": "boxShadow"
     }
   }
 }
