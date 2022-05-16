@@ -190,6 +190,9 @@
   "#999999": [
     "dark.colorNeutralForeground4"
   ],
+  "#D6D6D6": [
+    "dark.colorNeutralForeground2Link"
+  ],
   "#adadad": [
     "dark.colorNeutralForeground3",
     "dark.colorNeutralStrokeAccessible"

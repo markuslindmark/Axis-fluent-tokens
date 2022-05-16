@@ -162,6 +162,11 @@
           "value": "#ffffff",
           "type": "color",
           "description": "#FFFFFF"
+        },
+        "2Link": {
+          "value": "#D6D6D6",
+          "type": "color",
+          "description": "#D6D6D6"
         }
       },
       "Background": {
