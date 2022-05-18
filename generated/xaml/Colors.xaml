@@ -1,6 +1,6 @@
 <!--
   Do not edit directly
-  Generated on Mon, 16 May 2022 16:33:11 GMT
+  Generated on Wed, 18 May 2022 12:48:06 GMT
 -->
 <ResourceDictionary
   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -49,7 +49,7 @@
   <Color x:Key="Dark.ColorNeutralBackground6">#141414</Color>
   <Color x:Key="Dark.ColorNeutralBackground1Hover">#383838</Color>
   <Color x:Key="Dark.ColorNeutralBackground1Pressed">#242424</Color>
-  <Color x:Key="Dark.ColorNeutralBackground1Selected">#424242</Color>
+  <Color x:Key="Dark.ColorNeutralBackground1Selected">#333333</Color>
   <Color x:Key="Dark.ColorNeutralBackground2Hover">#292929</Color>
   <Color x:Key="Dark.ColorNeutralBackground2Pressed">#242424</Color>
   <Color x:Key="Dark.ColorNeutralBackground2Selected">#383838</Color>

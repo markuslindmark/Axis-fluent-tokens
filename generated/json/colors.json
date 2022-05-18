@@ -115,6 +115,7 @@
     "light.colorNeutralForeground1Pressed"
   ],
   "#333333": [
+    "dark.colorNeutralBackground1Selected",
     "dark.colorNeutralBackgroundInverted",
     "dark.colorNeutralBackgroundDisabled",
     "dark.colorNeutralStroke3",
@@ -128,7 +129,6 @@
     "dark.colorNeutralBackground4Hover"
   ],
   "#424242": [
-    "dark.colorNeutralBackground1Selected",
     "dark.colorNeutralStroke2",
     "dark.colorNeutralStrokeDisabled",
     "light.colorNeutralForeground2",

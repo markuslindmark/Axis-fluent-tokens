@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 16 May 2022 16:33:11 GMT
+ * Generated on Wed, 18 May 2022 12:48:06 GMT
  */
 
 import { ColorTokens, ShadowTokens, ShadowBrandTokens } from "@fluentui/react-components";
@@ -46,7 +46,7 @@ export const colorTokens: ColorTokens = {
   colorNeutralBackground1: "#292929",
   colorNeutralBackground1Hover: "#383838",
   colorNeutralBackground1Pressed: "#242424",
-  colorNeutralBackground1Selected: "#424242",
+  colorNeutralBackground1Selected: "#333333",
   colorNeutralBackground2: "#242424",
   colorNeutralBackground2Hover: "#292929",
   colorNeutralBackground2Pressed: "#242424",
